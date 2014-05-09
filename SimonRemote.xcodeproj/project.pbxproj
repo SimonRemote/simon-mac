@@ -14,8 +14,8 @@
 		2F3C8D70191717AB00E33C56 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3C8D6F191717AB00E33C56 /* Sparkle.framework */; };
 		2F3C8D71191717B500E33C56 /* Sparkle.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = 2F3C8D6F191717AB00E33C56 /* Sparkle.framework */; };
 		2F8046F618D3D2C10078905C /* SocketRocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F8046F518D3D2C10078905C /* SocketRocket.framework */; };
-		2F8046FA18D3DE5E0078905C /* PMRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8046F918D3DE5E0078905C /* PMRunner.m */; };
-		2F8046FD18D3E6800078905C /* PMActionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8046FC18D3E6800078905C /* PMActionHandler.m */; };
+		2F8046FA18D3DE5E0078905C /* SRRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8046F918D3DE5E0078905C /* SRRunner.m */; };
+		2F8046FD18D3E6800078905C /* SRActionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8046FC18D3E6800078905C /* SRActionHandler.m */; };
 		2F80475B18D3FC9F0078905C /* bottomleft.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F80475A18D3FC9F0078905C /* bottomleft.png */; };
 		2F80476918D3FCB50078905C /* Spotify-pause.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2F80476018D3FCB50078905C /* Spotify-pause.scpt */; };
 		2F80476A18D3FCB50078905C /* Spotify-play.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2F80476118D3FCB50078905C /* Spotify-play.scpt */; };
@@ -45,8 +45,8 @@
 		2FAB739F1906D8B200F36112 /* Keynote-next.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2FAB739B1906D8B200F36112 /* Keynote-next.scpt */; };
 		2FAB73A01906D8B200F36112 /* Keynote-previous.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2FAB739C1906D8B200F36112 /* Keynote-previous.scpt */; };
 		2FAB73A11906D8B200F36112 /* Keynote-start_slideshow.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2FAB739D1906D8B200F36112 /* Keynote-start_slideshow.scpt */; };
-		2FC629C718D3A9D300A7CA1F /* PMConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC629C618D3A9D300A7CA1F /* PMConnection.m */; };
-		2FC629CD18D3B30900A7CA1F /* PMMessenger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC629CC18D3B30900A7CA1F /* PMMessenger.m */; };
+		2FC629C718D3A9D300A7CA1F /* SRConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC629C618D3A9D300A7CA1F /* SRConnection.m */; };
+		2FC629CD18D3B30900A7CA1F /* SRMessenger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC629CC18D3B30900A7CA1F /* SRMessenger.m */; };
 		2FCFACA819119C8D00508B0A /* System-down.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2FCFACA219119C8D00508B0A /* System-down.scpt */; };
 		2FCFACA919119C8D00508B0A /* System-info.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2FCFACA319119C8D00508B0A /* System-info.scpt */; };
 		2FCFACAA19119C8D00508B0A /* System-left.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2FCFACA419119C8D00508B0A /* System-left.scpt */; };
@@ -93,10 +93,10 @@
 		2F3C8D6D191714AD00E33C56 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = dsa_pub.pem; path = Popup/Sparkle/dsa_pub.pem; sourceTree = "<group>"; };
 		2F3C8D6F191717AB00E33C56 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = ../../../../../../Library/Frameworks/Sparkle.framework; sourceTree = "<group>"; };
 		2F8046F518D3D2C10078905C /* SocketRocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SocketRocket.framework; path = ../../../../../../Library/Frameworks/SocketRocket.framework; sourceTree = "<group>"; };
-		2F8046F818D3DE5E0078905C /* PMRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMRunner.h; sourceTree = "<group>"; };
-		2F8046F918D3DE5E0078905C /* PMRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMRunner.m; sourceTree = "<group>"; };
-		2F8046FB18D3E6800078905C /* PMActionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMActionHandler.h; sourceTree = "<group>"; };
-		2F8046FC18D3E6800078905C /* PMActionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMActionHandler.m; sourceTree = "<group>"; };
+		2F8046F818D3DE5E0078905C /* SRRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRRunner.h; sourceTree = "<group>"; };
+		2F8046F918D3DE5E0078905C /* SRRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRRunner.m; sourceTree = "<group>"; };
+		2F8046FB18D3E6800078905C /* SRActionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRActionHandler.h; sourceTree = "<group>"; };
+		2F8046FC18D3E6800078905C /* SRActionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRActionHandler.m; sourceTree = "<group>"; };
 		2F80475A18D3FC9F0078905C /* bottomleft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bottomleft.png; path = Popup/bottomleft.png; sourceTree = "<group>"; };
 		2F80476018D3FCB50078905C /* Spotify-pause.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Spotify-pause.scpt"; path = "Popup/Scripts/Spotify/Spotify-pause.scpt"; sourceTree = "<group>"; };
 		2F80476118D3FCB50078905C /* Spotify-play.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Spotify-play.scpt"; path = "Popup/Scripts/Spotify/Spotify-play.scpt"; sourceTree = "<group>"; };
@@ -121,10 +121,10 @@
 		2FAB739B1906D8B200F36112 /* Keynote-next.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Keynote-next.scpt"; path = "Popup/Scripts/Keynote/Keynote-next.scpt"; sourceTree = "<group>"; };
 		2FAB739C1906D8B200F36112 /* Keynote-previous.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Keynote-previous.scpt"; path = "Popup/Scripts/Keynote/Keynote-previous.scpt"; sourceTree = "<group>"; };
 		2FAB739D1906D8B200F36112 /* Keynote-start_slideshow.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Keynote-start_slideshow.scpt"; path = "Popup/Scripts/Keynote/Keynote-start_slideshow.scpt"; sourceTree = "<group>"; };
-		2FC629C518D3A9D300A7CA1F /* PMConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMConnection.h; sourceTree = "<group>"; };
-		2FC629C618D3A9D300A7CA1F /* PMConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMConnection.m; sourceTree = "<group>"; };
-		2FC629CB18D3B30900A7CA1F /* PMMessenger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMMessenger.h; sourceTree = "<group>"; };
-		2FC629CC18D3B30900A7CA1F /* PMMessenger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMMessenger.m; sourceTree = "<group>"; };
+		2FC629C518D3A9D300A7CA1F /* SRConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRConnection.h; sourceTree = "<group>"; };
+		2FC629C618D3A9D300A7CA1F /* SRConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRConnection.m; sourceTree = "<group>"; };
+		2FC629CB18D3B30900A7CA1F /* SRMessenger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRMessenger.h; sourceTree = "<group>"; };
+		2FC629CC18D3B30900A7CA1F /* SRMessenger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRMessenger.m; sourceTree = "<group>"; };
 		2FCFACA219119C8D00508B0A /* System-down.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "System-down.scpt"; path = "Popup/Scripts/System/System-down.scpt"; sourceTree = "<group>"; };
 		2FCFACA319119C8D00508B0A /* System-info.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "System-info.scpt"; path = "Popup/Scripts/System/System-info.scpt"; sourceTree = "<group>"; };
 		2FCFACA419119C8D00508B0A /* System-left.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "System-left.scpt"; path = "Popup/Scripts/System/System-left.scpt"; sourceTree = "<group>"; };
@@ -142,14 +142,14 @@
 		2FD6928F18DFD44700C8A1C9 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = Reachability/Reachability.h; sourceTree = "<group>"; };
 		2FD6929018DFD44700C8A1C9 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = Reachability/Reachability.m; sourceTree = "<group>"; };
 		2FD6929218DFD57200C8A1C9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		DD4F7C0413C30F9F00825C6E /* PebbleControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PebbleControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD4F7C0413C30F9F00825C6E /* SimonRemote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimonRemote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD4F7C0813C30F9F00825C6E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		DD4F7C0B13C30F9F00825C6E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		DD4F7C0C13C30F9F00825C6E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		DD4F7C0D13C30F9F00825C6E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		DD4F7C1013C30F9F00825C6E /* PebbleControl-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "PebbleControl-Info.plist"; path = "Popup/PebbleControl-Info.plist"; sourceTree = "<group>"; };
+		DD4F7C1013C30F9F00825C6E /* SimonRemote-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SimonRemote-Info.plist"; path = "Popup/SimonRemote-Info.plist"; sourceTree = "<group>"; };
 		DD4F7C1413C30F9F00825C6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DD4F7C1613C30F9F00825C6E /* PebbleControl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PebbleControl-Prefix.pch"; sourceTree = "<group>"; };
+		DD4F7C1613C30F9F00825C6E /* SimonRemote-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimonRemote-Prefix.pch"; sourceTree = "<group>"; };
 		DD4F7C1A13C30F9F00825C6E /* ApplicationDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApplicationDelegate.h; sourceTree = "<group>"; };
 		DD4F7C1B13C30F9F00825C6E /* ApplicationDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApplicationDelegate.m; sourceTree = "<group>"; };
 		DD4F7C3613C317A500825C6E /* MenubarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenubarController.h; sourceTree = "<group>"; };
@@ -268,14 +268,14 @@
 				2FD6929018DFD44700C8A1C9 /* Reachability.m */,
 				2FD6924118DCB97C00C8A1C9 /* NSAppleEventDescriptor+FCSAdditions.h */,
 				2FD6924218DCB97C00C8A1C9 /* NSAppleEventDescriptor+FCSAdditions.m */,
-				2FC629C518D3A9D300A7CA1F /* PMConnection.h */,
-				2FC629C618D3A9D300A7CA1F /* PMConnection.m */,
-				2FC629CB18D3B30900A7CA1F /* PMMessenger.h */,
-				2FC629CC18D3B30900A7CA1F /* PMMessenger.m */,
-				2F8046F818D3DE5E0078905C /* PMRunner.h */,
-				2F8046F918D3DE5E0078905C /* PMRunner.m */,
-				2F8046FB18D3E6800078905C /* PMActionHandler.h */,
-				2F8046FC18D3E6800078905C /* PMActionHandler.m */,
+				2FC629C518D3A9D300A7CA1F /* SRConnection.h */,
+				2FC629C618D3A9D300A7CA1F /* SRConnection.m */,
+				2FC629CB18D3B30900A7CA1F /* SRMessenger.h */,
+				2FC629CC18D3B30900A7CA1F /* SRMessenger.m */,
+				2F8046F818D3DE5E0078905C /* SRRunner.h */,
+				2F8046F918D3DE5E0078905C /* SRRunner.m */,
+				2F8046FB18D3E6800078905C /* SRActionHandler.h */,
+				2F8046FC18D3E6800078905C /* SRActionHandler.m */,
 			);
 			name = MyFiles;
 			sourceTree = "<group>";
@@ -303,14 +303,14 @@
 				DD4F7C2813C3123E00825C6E /* User Interface */,
 				DD4F7C0713C30F9F00825C6E /* Frameworks */,
 				DD4F7C0513C30F9F00825C6E /* Products */,
-				DD4F7C1013C30F9F00825C6E /* PebbleControl-Info.plist */,
+				DD4F7C1013C30F9F00825C6E /* SimonRemote-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
 		DD4F7C0513C30F9F00825C6E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DD4F7C0413C30F9F00825C6E /* PebbleControl.app */,
+				DD4F7C0413C30F9F00825C6E /* SimonRemote.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -344,7 +344,7 @@
 		DD4F7C0F13C30F9F00825C6E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				DD4F7C1613C30F9F00825C6E /* PebbleControl-Prefix.pch */,
+				DD4F7C1613C30F9F00825C6E /* SimonRemote-Prefix.pch */,
 				DD4F7C1413C30F9F00825C6E /* main.m */,
 			);
 			name = "Supporting Files";
@@ -409,9 +409,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DD4F7C0313C30F9F00825C6E /* PebbleControl */ = {
+		DD4F7C0313C30F9F00825C6E /* SimonRemote */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DD4F7C2213C30F9F00825C6E /* Build configuration list for PBXNativeTarget "PebbleControl" */;
+			buildConfigurationList = DD4F7C2213C30F9F00825C6E /* Build configuration list for PBXNativeTarget "SimonRemote" */;
 			buildPhases = (
 				DD4F7C0013C30F9F00825C6E /* Sources */,
 				DD4F7C0113C30F9F00825C6E /* Frameworks */,
@@ -422,9 +422,9 @@
 			);
 			dependencies = (
 			);
-			name = PebbleControl;
+			name = SimonRemote;
 			productName = Popup;
-			productReference = DD4F7C0413C30F9F00825C6E /* PebbleControl.app */;
+			productReference = DD4F7C0413C30F9F00825C6E /* SimonRemote.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -444,7 +444,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DD4F7BFE13C30F9F00825C6E /* Build configuration list for PBXProject "PebbleControl" */;
+			buildConfigurationList = DD4F7BFE13C30F9F00825C6E /* Build configuration list for PBXProject "SimonRemote" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -456,7 +456,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DD4F7C0313C30F9F00825C6E /* PebbleControl */,
+				DD4F7C0313C30F9F00825C6E /* SimonRemote */,
 			);
 		};
 /* End PBXProject section */
@@ -524,15 +524,15 @@
 				DD4F7C1513C30F9F00825C6E /* main.m in Sources */,
 				DD4F7C1C13C30F9F00825C6E /* ApplicationDelegate.m in Sources */,
 				2FD6924318DCB97C00C8A1C9 /* NSAppleEventDescriptor+FCSAdditions.m in Sources */,
-				2F8046FD18D3E6800078905C /* PMActionHandler.m in Sources */,
+				2F8046FD18D3E6800078905C /* SRActionHandler.m in Sources */,
 				DD4F7C3813C317A500825C6E /* MenubarController.m in Sources */,
-				2FC629CD18D3B30900A7CA1F /* PMMessenger.m in Sources */,
+				2FC629CD18D3B30900A7CA1F /* SRMessenger.m in Sources */,
 				DD4F7C3C13C3180800825C6E /* StatusItemView.m in Sources */,
 				DD4F7C3F13C318D600825C6E /* PanelController.m in Sources */,
 				DD4F7C4413C31BD200825C6E /* Panel.m in Sources */,
 				DD4F7C4713C3208500825C6E /* BackgroundView.m in Sources */,
-				2F8046FA18D3DE5E0078905C /* PMRunner.m in Sources */,
-				2FC629C718D3A9D300A7CA1F /* PMConnection.m in Sources */,
+				2F8046FA18D3DE5E0078905C /* SRRunner.m in Sources */,
+				2FC629C718D3A9D300A7CA1F /* SRConnection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -622,9 +622,9 @@
 					"$(LOCAL_LIBRARY_DIR)/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Popup/PebbleControl-Prefix.pch";
-				INFOPLIST_FILE = "Popup/PebbleControl-Info.plist";
-				PRODUCT_NAME = PebbleControl;
+				GCC_PREFIX_HEADER = "Popup/SimonRemote-Prefix.pch";
+				INFOPLIST_FILE = "Popup/SimonRemote-Info.plist";
+				PRODUCT_NAME = SimonRemote;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -640,9 +640,9 @@
 					"$(LOCAL_LIBRARY_DIR)/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Popup/PebbleControl-Prefix.pch";
-				INFOPLIST_FILE = "Popup/PebbleControl-Info.plist";
-				PRODUCT_NAME = PebbleControl;
+				GCC_PREFIX_HEADER = "Popup/SimonRemote-Prefix.pch";
+				INFOPLIST_FILE = "Popup/SimonRemote-Info.plist";
+				PRODUCT_NAME = SimonRemote;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -650,7 +650,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DD4F7BFE13C30F9F00825C6E /* Build configuration list for PBXProject "PebbleControl" */ = {
+		DD4F7BFE13C30F9F00825C6E /* Build configuration list for PBXProject "SimonRemote" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD4F7C2013C30F9F00825C6E /* Debug */,
@@ -659,7 +659,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DD4F7C2213C30F9F00825C6E /* Build configuration list for PBXNativeTarget "PebbleControl" */ = {
+		DD4F7C2213C30F9F00825C6E /* Build configuration list for PBXNativeTarget "SimonRemote" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD4F7C2313C30F9F00825C6E /* Debug */,

@@ -6,9 +6,9 @@
 //
 //
 
-#import "PMConnection.h"
+#import "SRConnection.h"
 
-@implementation PMConnection {
+@implementation SRConnection {
     SRWebSocket *_webSocket;
     NSString *_url;
     NSString *_channel;

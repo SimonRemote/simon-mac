@@ -7,12 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "PMConnection.h"
-#import "PMActionHandler.h"
+#import "SRConnection.h"
+#import "SRActionHandler.h"
 
-@interface PMMessenger : NSObject <PMConnectionDelegate>
-@property (nonatomic, strong) PMConnection *connection;
-- (PMMessenger *)initWithURL:(NSString *)url andChannel:(NSString *)channel;
+@interface SRMessenger : NSObject <PMConnectionDelegate>
+@property (nonatomic, strong) SRConnection *connection;
+- (SRMessenger *)initWithURL:(NSString *)url andChannel:(NSString *)channel;
 - (void) deliverInfoForApp:(NSString *)app;
 - (void) sendNewInfoForApp:(NSString *)app;
 - (bool) isConnected;

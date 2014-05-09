@@ -6,21 +6,21 @@
 //
 //
 
-#import "PMMessenger.h"
+#import "SRMessenger.h"
 #import "ApplicationDelegate.h"
 
-@implementation PMMessenger {
+@implementation SRMessenger {
     bool ignorePlayer;
     bool isConnected;
 }
 
 @synthesize connection = _connection;
 
-- (PMMessenger *)initWithURL:(NSString *)url andChannel:(NSString *)channel
+- (SRMessenger *)initWithURL:(NSString *)url andChannel:(NSString *)channel
 {
     self = [super init];
     if (self) {
-        _connection = [[PMConnection alloc] init];
+        _connection = [[SRConnection alloc] init];
         [_connection connectWithURL:url andChannel:channel];
         
         _connection.delegate = self;
@@ -42,7 +42,7 @@
     [_connection reconnect];
 }
 
-- (void)connection:(PMConnection *)connection didReceiveMessage:(id)message
+- (void)connection:(SRConnection *)connection didReceiveMessage:(id)message
 {
     NSData *data = [message dataUsingEncoding:NSUTF8StringEncoding];
     NSDictionary *root = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
@@ -62,7 +62,7 @@
         
         //execute command if not info
         if (![command isEqualToString:@"info"]) {
-            [PMActionHandler handleCommand:command forApplication:app];
+            [SRActionHandler handleCommand:command forApplication:app];
         }
         
         [self deliverInfoForApp:app];
@@ -73,7 +73,7 @@
 
 - (void) deliverInfoForApp:(NSString *)app
 {
-    NSDictionary * info = [PMActionHandler getInfoForApplication:app];
+    NSDictionary * info = [SRActionHandler getInfoForApplication:app];
     
     if (info == nil) {
         NSLog(@"Info is null\n");
@@ -98,13 +98,13 @@
     ignorePlayer = NO;
 }
 
-- (void) connectionDidOpen:(PMConnection *)connection
+- (void) connectionDidOpen:(SRConnection *)connection
 {
     NSLog(@"connection opened\n");
     isConnected = YES;
 }
 
-- (void) connectionDidClose:(PMConnection *)connection
+- (void) connectionDidClose:(SRConnection *)connection
 {
     NSLog(@"connection closed\n");
     isConnected = NO;

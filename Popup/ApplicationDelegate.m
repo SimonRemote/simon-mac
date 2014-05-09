@@ -148,7 +148,7 @@ void *kContextActivePanel = &kContextActivePanel;
     // Install icon into the menu bar
     self.menubarController = [[MenubarController alloc] init];
     channel = [self getChannel];
-    _messenger = [[PMMessenger alloc] initWithURL:WS_SERVER_URL andChannel:channel];
+    _messenger = [[SRMessenger alloc] initWithURL:WS_SERVER_URL andChannel:channel];
     
     
     // Allocate a reachability object

@@ -6,10 +6,10 @@
 //
 //
 
-#import "PMRunner.h"
+#import "SRRunner.h"
 #import "NSAppleEventDescriptor+FCSAdditions.h"
 
-@implementation PMRunner
+@implementation SRRunner
 
 /* from http://stackoverflow.com/a/13182999 */
 

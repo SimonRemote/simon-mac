@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface PMRunner : NSObject
+@interface SRRunner : NSObject
 
 + (NSDictionary *)runScriptFromFile:(NSString *)path;
 + (NSString *)runScriptFromString:(NSString *)script;

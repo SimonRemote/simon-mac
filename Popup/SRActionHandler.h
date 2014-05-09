@@ -7,9 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "PMRunner.h"
+#import "SRRunner.h"
 
-@interface PMActionHandler : NSObject
+@interface SRActionHandler : NSObject
 
 + (void) handleCommand:(NSString *)command forApplication:(NSString *)app;
 + (NSDictionary *) getInfoForApplication:(NSString *)app;

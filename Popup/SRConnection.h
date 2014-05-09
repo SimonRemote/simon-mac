@@ -11,7 +11,7 @@
 
 @protocol PMConnectionDelegate;
 
-@interface PMConnection : NSObject <SRWebSocketDelegate>
+@interface SRConnection : NSObject <SRWebSocketDelegate>
 
 @property (nonatomic, assign) id <PMConnectionDelegate> delegate;
 
@@ -26,10 +26,10 @@
 
 @protocol PMConnectionDelegate <NSObject>
 
-- (void)connection:(PMConnection *)connection didReceiveMessage:(id)message;
+- (void)connection:(SRConnection *)connection didReceiveMessage:(id)message;
 
 @optional
-- (void)connectionDidOpen:(PMConnection *)connection;
-- (void)connectionDidClose:(PMConnection *)connection;
+- (void)connectionDidOpen:(SRConnection *)connection;
+- (void)connectionDidClose:(SRConnection *)connection;
 
 @end
