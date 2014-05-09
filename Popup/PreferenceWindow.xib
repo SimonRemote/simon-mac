@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment defaultVersion="1060" identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="5053"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner"/>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application"/>
+        <window title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" animationBehavior="default" id="QvC-M9-y7g">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="196" y="240" width="480" height="270"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1178"/>
+            <view key="contentView" id="EiT-Mj-1SZ">
+                <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
+                <autoresizingMask key="autoresizingMask"/>
+            </view>
+            <toolbar key="toolbar" implicitIdentifier="816CFCF9-99CC-4B99-9A67-D7061E50A34E" autosavesConfiguration="NO" displayMode="iconAndLabel" sizeMode="regular" id="S7q-Kx-jLN">
+                <allowedToolbarItems>
+                    <toolbarItem implicitItemIdentifier="NSToolbarShowColorsItem" id="Swi-Kj-4ln"/>
+                    <toolbarItem implicitItemIdentifier="NSToolbarShowFontsItem" explicitItemIdentifier="NSToolbarShow" id="Nvc-nl-kLW"/>
+                    <toolbarItem implicitItemIdentifier="NSToolbarPrintItem" id="D8S-du-kIb"/>
+                    <toolbarItem implicitItemIdentifier="NSToolbarSpaceItem" id="fYx-Jb-wF3"/>
+                    <toolbarItem implicitItemIdentifier="NSToolbarFlexibleSpaceItem" id="k4R-Fp-uUG"/>
+                </allowedToolbarItems>
+                <defaultToolbarItems>
+                    <toolbarItem reference="Swi-Kj-4ln"/>
+                    <toolbarItem reference="Nvc-nl-kLW"/>
+                    <toolbarItem reference="k4R-Fp-uUG"/>
+                    <toolbarItem reference="D8S-du-kIb"/>
+                </defaultToolbarItems>
+            </toolbar>
+        </window>
+    </objects>
+</document>
