@@ -1,6 +1,6 @@
 //
 //  PMConnection.h
-//  PebbleControl
+//  SimonRemote
 //
 //  Created by Tyler H on 3/14/14.
 //
