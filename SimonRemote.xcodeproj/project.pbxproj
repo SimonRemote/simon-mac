@@ -88,57 +88,57 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2F21FA871904C812002DD68B /* iTunes-disable_shuffle.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "iTunes-disable_shuffle.scpt"; path = "Popup/Scripts/iTunes/iTunes-disable_shuffle.scpt"; sourceTree = "<group>"; };
-		2F21FA881904C812002DD68B /* iTunes-enable_shuffle.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "iTunes-enable_shuffle.scpt"; path = "Popup/Scripts/iTunes/iTunes-enable_shuffle.scpt"; sourceTree = "<group>"; };
-		2F3C8D6D191714AD00E33C56 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = dsa_pub.pem; path = Popup/Sparkle/dsa_pub.pem; sourceTree = "<group>"; };
+		2F21FA871904C812002DD68B /* iTunes-disable_shuffle.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "iTunes-disable_shuffle.scpt"; path = "SimonRemote/Scripts/iTunes/iTunes-disable_shuffle.scpt"; sourceTree = "<group>"; };
+		2F21FA881904C812002DD68B /* iTunes-enable_shuffle.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "iTunes-enable_shuffle.scpt"; path = "SimonRemote/Scripts/iTunes/iTunes-enable_shuffle.scpt"; sourceTree = "<group>"; };
+		2F3C8D6D191714AD00E33C56 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = dsa_pub.pem; path = SimonRemote/Sparkle/dsa_pub.pem; sourceTree = "<group>"; };
 		2F3C8D6F191717AB00E33C56 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = ../../../../../../Library/Frameworks/Sparkle.framework; sourceTree = "<group>"; };
 		2F8046F518D3D2C10078905C /* SocketRocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SocketRocket.framework; path = ../../../../../../Library/Frameworks/SocketRocket.framework; sourceTree = "<group>"; };
 		2F8046F818D3DE5E0078905C /* SRRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRRunner.h; sourceTree = "<group>"; };
 		2F8046F918D3DE5E0078905C /* SRRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRRunner.m; sourceTree = "<group>"; };
 		2F8046FB18D3E6800078905C /* SRActionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRActionHandler.h; sourceTree = "<group>"; };
 		2F8046FC18D3E6800078905C /* SRActionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRActionHandler.m; sourceTree = "<group>"; };
-		2F80475A18D3FC9F0078905C /* bottomleft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bottomleft.png; path = Popup/bottomleft.png; sourceTree = "<group>"; };
-		2F80476018D3FCB50078905C /* Spotify-pause.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Spotify-pause.scpt"; path = "Popup/Scripts/Spotify/Spotify-pause.scpt"; sourceTree = "<group>"; };
-		2F80476118D3FCB50078905C /* Spotify-play.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Spotify-play.scpt"; path = "Popup/Scripts/Spotify/Spotify-play.scpt"; sourceTree = "<group>"; };
-		2F80476E18D422F70078905C /* PreferenceWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PreferenceWindow.xib; path = Popup/PreferenceWindow.xib; sourceTree = "<group>"; };
-		2F921E0F18DA13DA006E2934 /* iTunes-pause.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "iTunes-pause.scpt"; path = "Popup/Scripts/iTunes/iTunes-pause.scpt"; sourceTree = "<group>"; };
-		2F921E1018DA13DA006E2934 /* iTunes-play.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "iTunes-play.scpt"; path = "Popup/Scripts/iTunes/iTunes-play.scpt"; sourceTree = "<group>"; };
-		2F921E2518DA4E72006E2934 /* PowerPoint-black_screen.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PowerPoint-black_screen.scpt"; path = "Popup/Scripts/PowerPoint/PowerPoint-black_screen.scpt"; sourceTree = "<group>"; };
-		2F921E2818DA4E72006E2934 /* PowerPoint-start_slideshow.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PowerPoint-start_slideshow.scpt"; path = "Popup/Scripts/PowerPoint/PowerPoint-start_slideshow.scpt"; sourceTree = "<group>"; };
-		2F921E2918DA4E72006E2934 /* PowerPoint-white_screen.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PowerPoint-white_screen.scpt"; path = "Popup/Scripts/PowerPoint/PowerPoint-white_screen.scpt"; sourceTree = "<group>"; };
-		2F921E3018DA52E7006E2934 /* PowerPoint-next.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PowerPoint-next.scpt"; path = "Popup/Scripts/PowerPoint/PowerPoint-next.scpt"; sourceTree = "<group>"; };
-		2F921E3118DA52E7006E2934 /* PowerPoint-previous.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PowerPoint-previous.scpt"; path = "Popup/Scripts/PowerPoint/PowerPoint-previous.scpt"; sourceTree = "<group>"; };
-		2F9B1D8518D28ABA00A41633 /* bottomright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bottomright.png; path = Popup/bottomright.png; sourceTree = "<group>"; };
-		2F9B1D8918D2B77C00A41633 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = Popup/en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		2FAB738B19060B0C00F36112 /* Spotify-disable_shuffle.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Spotify-disable_shuffle.scpt"; path = "Popup/Scripts/Spotify/Spotify-disable_shuffle.scpt"; sourceTree = "<group>"; };
-		2FAB738C19060B0C00F36112 /* Spotify-enable_shuffle.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Spotify-enable_shuffle.scpt"; path = "Popup/Scripts/Spotify/Spotify-enable_shuffle.scpt"; sourceTree = "<group>"; };
-		2FAB738F190614AF00F36112 /* PowerPoint-info.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PowerPoint-info.scpt"; path = "Popup/Scripts/PowerPoint/PowerPoint-info.scpt"; sourceTree = "<group>"; };
-		2FAB73911906D87900F36112 /* Spotify-next.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Spotify-next.scpt"; path = "Popup/Scripts/Spotify/Spotify-next.scpt"; sourceTree = "<group>"; };
-		2FAB73921906D87900F36112 /* Spotify-previous.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Spotify-previous.scpt"; path = "Popup/Scripts/Spotify/Spotify-previous.scpt"; sourceTree = "<group>"; };
-		2FAB73951906D88700F36112 /* iTunes-next.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "iTunes-next.scpt"; path = "Popup/Scripts/iTunes/iTunes-next.scpt"; sourceTree = "<group>"; };
-		2FAB73961906D88700F36112 /* iTunes-previous.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "iTunes-previous.scpt"; path = "Popup/Scripts/iTunes/iTunes-previous.scpt"; sourceTree = "<group>"; };
-		2FAB739A1906D8B200F36112 /* Keynote-info.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Keynote-info.scpt"; path = "Popup/Scripts/Keynote/Keynote-info.scpt"; sourceTree = "<group>"; };
-		2FAB739B1906D8B200F36112 /* Keynote-next.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Keynote-next.scpt"; path = "Popup/Scripts/Keynote/Keynote-next.scpt"; sourceTree = "<group>"; };
-		2FAB739C1906D8B200F36112 /* Keynote-previous.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Keynote-previous.scpt"; path = "Popup/Scripts/Keynote/Keynote-previous.scpt"; sourceTree = "<group>"; };
-		2FAB739D1906D8B200F36112 /* Keynote-start_slideshow.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Keynote-start_slideshow.scpt"; path = "Popup/Scripts/Keynote/Keynote-start_slideshow.scpt"; sourceTree = "<group>"; };
+		2F80475A18D3FC9F0078905C /* bottomleft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bottomleft.png; path = SimonRemote/bottomleft.png; sourceTree = "<group>"; };
+		2F80476018D3FCB50078905C /* Spotify-pause.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Spotify-pause.scpt"; path = "SimonRemote/Scripts/Spotify/Spotify-pause.scpt"; sourceTree = "<group>"; };
+		2F80476118D3FCB50078905C /* Spotify-play.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Spotify-play.scpt"; path = "SimonRemote/Scripts/Spotify/Spotify-play.scpt"; sourceTree = "<group>"; };
+		2F80476E18D422F70078905C /* PreferenceWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PreferenceWindow.xib; path = SimonRemote/PreferenceWindow.xib; sourceTree = "<group>"; };
+		2F921E0F18DA13DA006E2934 /* iTunes-pause.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "iTunes-pause.scpt"; path = "SimonRemote/Scripts/iTunes/iTunes-pause.scpt"; sourceTree = "<group>"; };
+		2F921E1018DA13DA006E2934 /* iTunes-play.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "iTunes-play.scpt"; path = "SimonRemote/Scripts/iTunes/iTunes-play.scpt"; sourceTree = "<group>"; };
+		2F921E2518DA4E72006E2934 /* PowerPoint-black_screen.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PowerPoint-black_screen.scpt"; path = "SimonRemote/Scripts/PowerPoint/PowerPoint-black_screen.scpt"; sourceTree = "<group>"; };
+		2F921E2818DA4E72006E2934 /* PowerPoint-start_slideshow.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PowerPoint-start_slideshow.scpt"; path = "SimonRemote/Scripts/PowerPoint/PowerPoint-start_slideshow.scpt"; sourceTree = "<group>"; };
+		2F921E2918DA4E72006E2934 /* PowerPoint-white_screen.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PowerPoint-white_screen.scpt"; path = "SimonRemote/Scripts/PowerPoint/PowerPoint-white_screen.scpt"; sourceTree = "<group>"; };
+		2F921E3018DA52E7006E2934 /* PowerPoint-next.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PowerPoint-next.scpt"; path = "SimonRemote/Scripts/PowerPoint/PowerPoint-next.scpt"; sourceTree = "<group>"; };
+		2F921E3118DA52E7006E2934 /* PowerPoint-previous.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PowerPoint-previous.scpt"; path = "SimonRemote/Scripts/PowerPoint/PowerPoint-previous.scpt"; sourceTree = "<group>"; };
+		2F9B1D8518D28ABA00A41633 /* bottomright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bottomright.png; path = SimonRemote/bottomright.png; sourceTree = "<group>"; };
+		2F9B1D8918D2B77C00A41633 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = SimonRemote/en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2FAB738B19060B0C00F36112 /* Spotify-disable_shuffle.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Spotify-disable_shuffle.scpt"; path = "SimonRemote/Scripts/Spotify/Spotify-disable_shuffle.scpt"; sourceTree = "<group>"; };
+		2FAB738C19060B0C00F36112 /* Spotify-enable_shuffle.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Spotify-enable_shuffle.scpt"; path = "SimonRemote/Scripts/Spotify/Spotify-enable_shuffle.scpt"; sourceTree = "<group>"; };
+		2FAB738F190614AF00F36112 /* PowerPoint-info.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PowerPoint-info.scpt"; path = "SimonRemote/Scripts/PowerPoint/PowerPoint-info.scpt"; sourceTree = "<group>"; };
+		2FAB73911906D87900F36112 /* Spotify-next.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Spotify-next.scpt"; path = "SimonRemote/Scripts/Spotify/Spotify-next.scpt"; sourceTree = "<group>"; };
+		2FAB73921906D87900F36112 /* Spotify-previous.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Spotify-previous.scpt"; path = "SimonRemote/Scripts/Spotify/Spotify-previous.scpt"; sourceTree = "<group>"; };
+		2FAB73951906D88700F36112 /* iTunes-next.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "iTunes-next.scpt"; path = "SimonRemote/Scripts/iTunes/iTunes-next.scpt"; sourceTree = "<group>"; };
+		2FAB73961906D88700F36112 /* iTunes-previous.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "iTunes-previous.scpt"; path = "SimonRemote/Scripts/iTunes/iTunes-previous.scpt"; sourceTree = "<group>"; };
+		2FAB739A1906D8B200F36112 /* Keynote-info.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Keynote-info.scpt"; path = "SimonRemote/Scripts/Keynote/Keynote-info.scpt"; sourceTree = "<group>"; };
+		2FAB739B1906D8B200F36112 /* Keynote-next.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Keynote-next.scpt"; path = "SimonRemote/Scripts/Keynote/Keynote-next.scpt"; sourceTree = "<group>"; };
+		2FAB739C1906D8B200F36112 /* Keynote-previous.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Keynote-previous.scpt"; path = "SimonRemote/Scripts/Keynote/Keynote-previous.scpt"; sourceTree = "<group>"; };
+		2FAB739D1906D8B200F36112 /* Keynote-start_slideshow.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Keynote-start_slideshow.scpt"; path = "SimonRemote/Scripts/Keynote/Keynote-start_slideshow.scpt"; sourceTree = "<group>"; };
 		2FC629C518D3A9D300A7CA1F /* SRConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRConnection.h; sourceTree = "<group>"; };
 		2FC629C618D3A9D300A7CA1F /* SRConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRConnection.m; sourceTree = "<group>"; };
 		2FC629CB18D3B30900A7CA1F /* SRMessenger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRMessenger.h; sourceTree = "<group>"; };
 		2FC629CC18D3B30900A7CA1F /* SRMessenger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRMessenger.m; sourceTree = "<group>"; };
-		2FCFACA219119C8D00508B0A /* System-down.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "System-down.scpt"; path = "Popup/Scripts/System/System-down.scpt"; sourceTree = "<group>"; };
-		2FCFACA319119C8D00508B0A /* System-info.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "System-info.scpt"; path = "Popup/Scripts/System/System-info.scpt"; sourceTree = "<group>"; };
-		2FCFACA419119C8D00508B0A /* System-left.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "System-left.scpt"; path = "Popup/Scripts/System/System-left.scpt"; sourceTree = "<group>"; };
-		2FCFACA519119C8D00508B0A /* System-right.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "System-right.scpt"; path = "Popup/Scripts/System/System-right.scpt"; sourceTree = "<group>"; };
-		2FCFACA619119C8D00508B0A /* System-space.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "System-space.scpt"; path = "Popup/Scripts/System/System-space.scpt"; sourceTree = "<group>"; };
-		2FCFACA719119C8D00508B0A /* System-up.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "System-up.scpt"; path = "Popup/Scripts/System/System-up.scpt"; sourceTree = "<group>"; };
-		2FD6923D18DBEB0800C8A1C9 /* iTunes-playpause.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "iTunes-playpause.scpt"; path = "Popup/Scripts/iTunes/iTunes-playpause.scpt"; sourceTree = "<group>"; };
-		2FD6923F18DCA70B00C8A1C9 /* iTunes-info.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "iTunes-info.scpt"; path = "Popup/Scripts/iTunes/iTunes-info.scpt"; sourceTree = "<group>"; };
+		2FCFACA219119C8D00508B0A /* System-down.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "System-down.scpt"; path = "SimonRemote/Scripts/System/System-down.scpt"; sourceTree = "<group>"; };
+		2FCFACA319119C8D00508B0A /* System-info.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "System-info.scpt"; path = "SimonRemote/Scripts/System/System-info.scpt"; sourceTree = "<group>"; };
+		2FCFACA419119C8D00508B0A /* System-left.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "System-left.scpt"; path = "SimonRemote/Scripts/System/System-left.scpt"; sourceTree = "<group>"; };
+		2FCFACA519119C8D00508B0A /* System-right.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "System-right.scpt"; path = "SimonRemote/Scripts/System/System-right.scpt"; sourceTree = "<group>"; };
+		2FCFACA619119C8D00508B0A /* System-space.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "System-space.scpt"; path = "SimonRemote/Scripts/System/System-space.scpt"; sourceTree = "<group>"; };
+		2FCFACA719119C8D00508B0A /* System-up.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "System-up.scpt"; path = "SimonRemote/Scripts/System/System-up.scpt"; sourceTree = "<group>"; };
+		2FD6923D18DBEB0800C8A1C9 /* iTunes-playpause.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "iTunes-playpause.scpt"; path = "SimonRemote/Scripts/iTunes/iTunes-playpause.scpt"; sourceTree = "<group>"; };
+		2FD6923F18DCA70B00C8A1C9 /* iTunes-info.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "iTunes-info.scpt"; path = "SimonRemote/Scripts/iTunes/iTunes-info.scpt"; sourceTree = "<group>"; };
 		2FD6924118DCB97C00C8A1C9 /* NSAppleEventDescriptor+FCSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAppleEventDescriptor+FCSAdditions.h"; sourceTree = "<group>"; };
 		2FD6924218DCB97C00C8A1C9 /* NSAppleEventDescriptor+FCSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAppleEventDescriptor+FCSAdditions.m"; sourceTree = "<group>"; };
-		2FD6924418DCD30500C8A1C9 /* Spotify-info.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Spotify-info.scpt"; path = "Popup/Scripts/Spotify/Spotify-info.scpt"; sourceTree = "<group>"; };
-		2FD6924518DCD30500C8A1C9 /* Spotify-playpause.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Spotify-playpause.scpt"; path = "Popup/Scripts/Spotify/Spotify-playpause.scpt"; sourceTree = "<group>"; };
-		2FD6924D18DD06CD00C8A1C9 /* System-volume_down.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "System-volume_down.scpt"; path = "Popup/Scripts/System/System-volume_down.scpt"; sourceTree = "<group>"; };
-		2FD6924E18DD06CD00C8A1C9 /* System-volume_up.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "System-volume_up.scpt"; path = "Popup/Scripts/System/System-volume_up.scpt"; sourceTree = "<group>"; };
+		2FD6924418DCD30500C8A1C9 /* Spotify-info.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Spotify-info.scpt"; path = "SimonRemote/Scripts/Spotify/Spotify-info.scpt"; sourceTree = "<group>"; };
+		2FD6924518DCD30500C8A1C9 /* Spotify-playpause.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Spotify-playpause.scpt"; path = "SimonRemote/Scripts/Spotify/Spotify-playpause.scpt"; sourceTree = "<group>"; };
+		2FD6924D18DD06CD00C8A1C9 /* System-volume_down.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "System-volume_down.scpt"; path = "SimonRemote/Scripts/System/System-volume_down.scpt"; sourceTree = "<group>"; };
+		2FD6924E18DD06CD00C8A1C9 /* System-volume_up.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "System-volume_up.scpt"; path = "SimonRemote/Scripts/System/System-volume_up.scpt"; sourceTree = "<group>"; };
 		2FD6928F18DFD44700C8A1C9 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = Reachability/Reachability.h; sourceTree = "<group>"; };
 		2FD6929018DFD44700C8A1C9 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = Reachability/Reachability.m; sourceTree = "<group>"; };
 		2FD6929218DFD57200C8A1C9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -147,7 +147,7 @@
 		DD4F7C0B13C30F9F00825C6E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		DD4F7C0C13C30F9F00825C6E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		DD4F7C0D13C30F9F00825C6E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		DD4F7C1013C30F9F00825C6E /* SimonRemote-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SimonRemote-Info.plist"; path = "Popup/SimonRemote-Info.plist"; sourceTree = "<group>"; };
+		DD4F7C1013C30F9F00825C6E /* SimonRemote-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SimonRemote-Info.plist"; path = "SimonRemote/SimonRemote-Info.plist"; sourceTree = "<group>"; };
 		DD4F7C1413C30F9F00825C6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DD4F7C1613C30F9F00825C6E /* SimonRemote-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimonRemote-Prefix.pch"; sourceTree = "<group>"; };
 		DD4F7C1A13C30F9F00825C6E /* ApplicationDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApplicationDelegate.h; sourceTree = "<group>"; };
@@ -158,15 +158,15 @@
 		DD4F7C3B13C3180800825C6E /* StatusItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusItemView.m; sourceTree = "<group>"; };
 		DD4F7C3D13C318D600825C6E /* PanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanelController.h; sourceTree = "<group>"; };
 		DD4F7C3E13C318D600825C6E /* PanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanelController.m; sourceTree = "<group>"; };
-		DD4F7C4013C31B4A00825C6E /* Panel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Panel.xib; path = Popup/Panel.xib; sourceTree = "<group>"; };
+		DD4F7C4013C31B4A00825C6E /* Panel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Panel.xib; path = SimonRemote/Panel.xib; sourceTree = "<group>"; };
 		DD4F7C4213C31BD200825C6E /* Panel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Panel.h; sourceTree = "<group>"; };
 		DD4F7C4313C31BD200825C6E /* Panel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Panel.m; sourceTree = "<group>"; };
 		DD4F7C4513C3208500825C6E /* BackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundView.h; sourceTree = "<group>"; };
 		DD4F7C4613C3208500825C6E /* BackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundView.m; sourceTree = "<group>"; };
-		DD4F7C4913C322FA00825C6E /* Status.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Status.png; path = Popup/Status.png; sourceTree = "<group>"; };
-		DD4F7C4A13C322FA00825C6E /* StatusHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = StatusHighlighted.png; path = Popup/StatusHighlighted.png; sourceTree = "<group>"; };
-		DDF4EFAB16C80A510044D141 /* Status@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Status@2x.png"; path = "Popup/Status@2x.png"; sourceTree = "<group>"; };
-		DDF4EFAD16C80AD30044D141 /* StatusHighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "StatusHighlighted@2x.png"; path = "Popup/StatusHighlighted@2x.png"; sourceTree = "<group>"; };
+		DD4F7C4913C322FA00825C6E /* Status.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Status.png; path = SimonRemote/Status.png; sourceTree = "<group>"; };
+		DD4F7C4A13C322FA00825C6E /* StatusHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = StatusHighlighted.png; path = SimonRemote/StatusHighlighted.png; sourceTree = "<group>"; };
+		DDF4EFAB16C80A510044D141 /* Status@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Status@2x.png"; path = "SimonRemote/Status@2x.png"; sourceTree = "<group>"; };
+		DDF4EFAD16C80AD30044D141 /* StatusHighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "StatusHighlighted@2x.png"; path = "SimonRemote/StatusHighlighted@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -338,7 +338,7 @@
 				DD4F7C0F13C30F9F00825C6E /* Supporting Files */,
 			);
 			name = Sources;
-			path = Popup;
+			path = SimonRemote;
 			sourceTree = "<group>";
 		};
 		DD4F7C0F13C30F9F00825C6E /* Supporting Files */ = {
@@ -423,7 +423,7 @@
 			dependencies = (
 			);
 			name = SimonRemote;
-			productName = Popup;
+			productName = SimonRemote;
 			productReference = DD4F7C0413C30F9F00825C6E /* SimonRemote.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -622,8 +622,8 @@
 					"$(LOCAL_LIBRARY_DIR)/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Popup/SimonRemote-Prefix.pch";
-				INFOPLIST_FILE = "Popup/SimonRemote-Info.plist";
+				GCC_PREFIX_HEADER = "SimonRemote/SimonRemote-Prefix.pch";
+				INFOPLIST_FILE = "SimonRemote/SimonRemote-Info.plist";
 				PRODUCT_NAME = SimonRemote;
 				WRAPPER_EXTENSION = app;
 			};
@@ -640,8 +640,8 @@
 					"$(LOCAL_LIBRARY_DIR)/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Popup/SimonRemote-Prefix.pch";
-				INFOPLIST_FILE = "Popup/SimonRemote-Info.plist";
+				GCC_PREFIX_HEADER = "SimonRemote/SimonRemote-Prefix.pch";
+				INFOPLIST_FILE = "SimonRemote/SimonRemote-Info.plist";
 				PRODUCT_NAME = SimonRemote;
 				WRAPPER_EXTENSION = app;
 			};
