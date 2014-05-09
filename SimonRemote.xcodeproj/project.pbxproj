@@ -10,7 +10,6 @@
 		2F21FA891904C812002DD68B /* iTunes-disable_shuffle.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2F21FA871904C812002DD68B /* iTunes-disable_shuffle.scpt */; };
 		2F21FA8A1904C812002DD68B /* iTunes-enable_shuffle.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2F21FA881904C812002DD68B /* iTunes-enable_shuffle.scpt */; };
 		2F3C8D671915D74B00E33C56 /* SocketRocket.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = 2F8046F518D3D2C10078905C /* SocketRocket.framework */; };
-		2F3C8D6E191714AD00E33C56 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 2F3C8D6D191714AD00E33C56 /* dsa_pub.pem */; };
 		2F3C8D70191717AB00E33C56 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3C8D6F191717AB00E33C56 /* Sparkle.framework */; };
 		2F3C8D71191717B500E33C56 /* Sparkle.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = 2F3C8D6F191717AB00E33C56 /* Sparkle.framework */; };
 		2F8046F618D3D2C10078905C /* SocketRocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F8046F518D3D2C10078905C /* SocketRocket.framework */; };
@@ -34,6 +33,7 @@
 		2F9B1D9018D2B82700A41633 /* StatusHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDF4EFAD16C80AD30044D141 /* StatusHighlighted@2x.png */; };
 		2F9B1D9118D2B82700A41633 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F9B1D8818D2B77C00A41633 /* MainMenu.xib */; };
 		2F9B1D9218D2B82700A41633 /* Panel.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD4F7C4013C31B4A00825C6E /* Panel.xib */; };
+		2FA264D6191C9D4200AF1175 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 2FA264D5191C9D4200AF1175 /* dsa_pub.pem */; };
 		2FAB738D19060B0C00F36112 /* Spotify-disable_shuffle.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2FAB738B19060B0C00F36112 /* Spotify-disable_shuffle.scpt */; };
 		2FAB738E19060B0C00F36112 /* Spotify-enable_shuffle.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2FAB738C19060B0C00F36112 /* Spotify-enable_shuffle.scpt */; };
 		2FAB7390190614AF00F36112 /* PowerPoint-info.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2FAB738F190614AF00F36112 /* PowerPoint-info.scpt */; };
@@ -90,7 +90,6 @@
 /* Begin PBXFileReference section */
 		2F21FA871904C812002DD68B /* iTunes-disable_shuffle.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "iTunes-disable_shuffle.scpt"; path = "SimonRemote/Scripts/iTunes/iTunes-disable_shuffle.scpt"; sourceTree = "<group>"; };
 		2F21FA881904C812002DD68B /* iTunes-enable_shuffle.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "iTunes-enable_shuffle.scpt"; path = "SimonRemote/Scripts/iTunes/iTunes-enable_shuffle.scpt"; sourceTree = "<group>"; };
-		2F3C8D6D191714AD00E33C56 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = dsa_pub.pem; path = SimonRemote/Sparkle/dsa_pub.pem; sourceTree = "<group>"; };
 		2F3C8D6F191717AB00E33C56 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = ../../../../../../Library/Frameworks/Sparkle.framework; sourceTree = "<group>"; };
 		2F8046F518D3D2C10078905C /* SocketRocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SocketRocket.framework; path = ../../../../../../Library/Frameworks/SocketRocket.framework; sourceTree = "<group>"; };
 		2F8046F818D3DE5E0078905C /* SRRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRRunner.h; sourceTree = "<group>"; };
@@ -110,6 +109,7 @@
 		2F921E3118DA52E7006E2934 /* PowerPoint-previous.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PowerPoint-previous.scpt"; path = "SimonRemote/Scripts/PowerPoint/PowerPoint-previous.scpt"; sourceTree = "<group>"; };
 		2F9B1D8518D28ABA00A41633 /* bottomright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bottomright.png; path = SimonRemote/bottomright.png; sourceTree = "<group>"; };
 		2F9B1D8918D2B77C00A41633 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = SimonRemote/en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2FA264D5191C9D4200AF1175 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = dsa_pub.pem; path = SimonRemote/dsa_pub.pem; sourceTree = "<group>"; };
 		2FAB738B19060B0C00F36112 /* Spotify-disable_shuffle.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Spotify-disable_shuffle.scpt"; path = "SimonRemote/Scripts/Spotify/Spotify-disable_shuffle.scpt"; sourceTree = "<group>"; };
 		2FAB738C19060B0C00F36112 /* Spotify-enable_shuffle.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Spotify-enable_shuffle.scpt"; path = "SimonRemote/Scripts/Spotify/Spotify-enable_shuffle.scpt"; sourceTree = "<group>"; };
 		2FAB738F190614AF00F36112 /* PowerPoint-info.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PowerPoint-info.scpt"; path = "SimonRemote/Scripts/PowerPoint/PowerPoint-info.scpt"; sourceTree = "<group>"; };
@@ -242,7 +242,7 @@
 		2F9B1D7918D25F2200A41633 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				2F3C8D6D191714AD00E33C56 /* dsa_pub.pem */,
+				2FA264D5191C9D4200AF1175 /* dsa_pub.pem */,
 				2F8046F718D3DDD40078905C /* Scripts */,
 				2F80475A18D3FC9F0078905C /* bottomleft.png */,
 				2F9B1D8518D28ABA00A41633 /* bottomright.png */,
@@ -506,8 +506,8 @@
 				2FAB739F1906D8B200F36112 /* Keynote-next.scpt in Resources */,
 				2FD6924F18DD06CD00C8A1C9 /* System-volume_down.scpt in Resources */,
 				2F80476F18D422F70078905C /* PreferenceWindow.xib in Resources */,
+				2FA264D6191C9D4200AF1175 /* dsa_pub.pem in Resources */,
 				2FAB73981906D88700F36112 /* iTunes-previous.scpt in Resources */,
-				2F3C8D6E191714AD00E33C56 /* dsa_pub.pem in Resources */,
 				2F9B1D9218D2B82700A41633 /* Panel.xib in Resources */,
 				2FCFACAC19119C8D00508B0A /* System-space.scpt in Resources */,
 			);
