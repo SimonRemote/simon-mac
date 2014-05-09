@@ -1,3 +1,7 @@
+# CocoaPods
+Pods/
+Podfile.lock
+
 # Xcode
 build/*
 *.pbxuser

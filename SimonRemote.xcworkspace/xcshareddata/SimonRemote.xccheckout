@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C7ACA3D7-EFA7-400F-A0AF-B0A185E1A938</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SimonRemote</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>38C7AA83-A981-44D1-A9AA-3BD0EDE8280F</key>
+		<string>https://github.com/SimonRemote/simon-mac.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SimonRemote.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>38C7AA83-A981-44D1-A9AA-3BD0EDE8280F</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/SimonRemote/simon-mac.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>38C7AA83-A981-44D1-A9AA-3BD0EDE8280F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>38C7AA83-A981-44D1-A9AA-3BD0EDE8280F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>simon-mac</string>
+		</dict>
+	</array>
+</dict>
+</plist>
