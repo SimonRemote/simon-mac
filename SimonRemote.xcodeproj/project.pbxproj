@@ -1,2247 +1,672 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>2892EF3B999F47A09E95CF66</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7AC4266516EC44A99EBB9394</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2F21FA871904C812002DD68B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file</string>
-			<key>name</key>
-			<string>iTunes-disable_shuffle.scpt</string>
-			<key>path</key>
-			<string>SimonRemote/Scripts/iTunes/iTunes-disable_shuffle.scpt</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2F21FA881904C812002DD68B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file</string>
-			<key>name</key>
-			<string>iTunes-enable_shuffle.scpt</string>
-			<key>path</key>
-			<string>SimonRemote/Scripts/iTunes/iTunes-enable_shuffle.scpt</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2F21FA891904C812002DD68B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2F21FA871904C812002DD68B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2F21FA8A1904C812002DD68B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2F21FA881904C812002DD68B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2F3C8D661915D74300E33C56</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>dstPath</key>
-			<string></string>
-			<key>dstSubfolderSpec</key>
-			<string>10</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXCopyFilesBuildPhase</string>
-			<key>name</key>
-			<string>Copy Files</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>2F8046F718D3DDD40078905C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2FAB73991906D89F00F36112</string>
-				<string>2FD6924C18DD065000C8A1C9</string>
-				<string>2F921E2F18DA4E99006E2934</string>
-				<string>2F921E1918DA13EF006E2934</string>
-				<string>2F921E1A18DA13F9006E2934</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Scripts</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2F8046F818D3DE5E0078905C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>SRRunner.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2F8046F918D3DE5E0078905C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>SRRunner.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2F8046FA18D3DE5E0078905C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2F8046F918D3DE5E0078905C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2F8046FB18D3E6800078905C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>SRActionHandler.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2F8046FC18D3E6800078905C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>SRActionHandler.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2F8046FD18D3E6800078905C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2F8046FC18D3E6800078905C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2F80475A18D3FC9F0078905C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>name</key>
-			<string>bottomleft.png</string>
-			<key>path</key>
-			<string>SimonRemote/bottomleft.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2F80475B18D3FC9F0078905C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2F80475A18D3FC9F0078905C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2F80476018D3FCB50078905C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file</string>
-			<key>name</key>
-			<string>Spotify-pause.scpt</string>
-			<key>path</key>
-			<string>SimonRemote/Scripts/Spotify/Spotify-pause.scpt</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2F80476118D3FCB50078905C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file</string>
-			<key>name</key>
-			<string>Spotify-play.scpt</string>
-			<key>path</key>
-			<string>SimonRemote/Scripts/Spotify/Spotify-play.scpt</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2F80476918D3FCB50078905C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2F80476018D3FCB50078905C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2F80476A18D3FCB50078905C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2F80476118D3FCB50078905C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2F80476E18D422F70078905C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.xib</string>
-			<key>name</key>
-			<string>PreferenceWindow.xib</string>
-			<key>path</key>
-			<string>SimonRemote/PreferenceWindow.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2F80476F18D422F70078905C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2F80476E18D422F70078905C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2F921E0F18DA13DA006E2934</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file</string>
-			<key>name</key>
-			<string>iTunes-pause.scpt</string>
-			<key>path</key>
-			<string>SimonRemote/Scripts/iTunes/iTunes-pause.scpt</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2F921E1018DA13DA006E2934</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file</string>
-			<key>name</key>
-			<string>iTunes-play.scpt</string>
-			<key>path</key>
-			<string>SimonRemote/Scripts/iTunes/iTunes-play.scpt</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2F921E1618DA13DA006E2934</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2F921E0F18DA13DA006E2934</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2F921E1718DA13DA006E2934</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2F921E1018DA13DA006E2934</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2F921E1918DA13EF006E2934</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2FAB73951906D88700F36112</string>
-				<string>2FAB73961906D88700F36112</string>
-				<string>2F21FA871904C812002DD68B</string>
-				<string>2F21FA881904C812002DD68B</string>
-				<string>2FD6923F18DCA70B00C8A1C9</string>
-				<string>2FD6923D18DBEB0800C8A1C9</string>
-				<string>2F921E0F18DA13DA006E2934</string>
-				<string>2F921E1018DA13DA006E2934</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iTunes</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2F921E1A18DA13F9006E2934</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2FAB73911906D87900F36112</string>
-				<string>2FAB73921906D87900F36112</string>
-				<string>2FAB738B19060B0C00F36112</string>
-				<string>2FAB738C19060B0C00F36112</string>
-				<string>2FD6924418DCD30500C8A1C9</string>
-				<string>2FD6924518DCD30500C8A1C9</string>
-				<string>2F80476018D3FCB50078905C</string>
-				<string>2F80476118D3FCB50078905C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Spotify</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2F921E2518DA4E72006E2934</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file</string>
-			<key>name</key>
-			<string>PowerPoint-black_screen.scpt</string>
-			<key>path</key>
-			<string>SimonRemote/Scripts/PowerPoint/PowerPoint-black_screen.scpt</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2F921E2818DA4E72006E2934</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file</string>
-			<key>name</key>
-			<string>PowerPoint-start_slideshow.scpt</string>
-			<key>path</key>
-			<string>SimonRemote/Scripts/PowerPoint/PowerPoint-start_slideshow.scpt</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2F921E2918DA4E72006E2934</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file</string>
-			<key>name</key>
-			<string>PowerPoint-white_screen.scpt</string>
-			<key>path</key>
-			<string>SimonRemote/Scripts/PowerPoint/PowerPoint-white_screen.scpt</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2F921E2A18DA4E72006E2934</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2F921E2518DA4E72006E2934</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2F921E2D18DA4E72006E2934</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2F921E2818DA4E72006E2934</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2F921E2E18DA4E72006E2934</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2F921E2918DA4E72006E2934</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2F921E2F18DA4E99006E2934</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2FAB738F190614AF00F36112</string>
-				<string>2F921E2518DA4E72006E2934</string>
-				<string>2F921E3018DA52E7006E2934</string>
-				<string>2F921E3118DA52E7006E2934</string>
-				<string>2F921E2818DA4E72006E2934</string>
-				<string>2F921E2918DA4E72006E2934</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>PowerPoint</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2F921E3018DA52E7006E2934</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file</string>
-			<key>name</key>
-			<string>PowerPoint-next.scpt</string>
-			<key>path</key>
-			<string>SimonRemote/Scripts/PowerPoint/PowerPoint-next.scpt</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2F921E3118DA52E7006E2934</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file</string>
-			<key>name</key>
-			<string>PowerPoint-previous.scpt</string>
-			<key>path</key>
-			<string>SimonRemote/Scripts/PowerPoint/PowerPoint-previous.scpt</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2F921E3218DA52E7006E2934</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2F921E3018DA52E7006E2934</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2F921E3318DA52E7006E2934</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2F921E3118DA52E7006E2934</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2F9B1D7918D25F2200A41633</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2FA264D5191C9D4200AF1175</string>
-				<string>2F8046F718D3DDD40078905C</string>
-				<string>2F80475A18D3FC9F0078905C</string>
-				<string>2F9B1D8518D28ABA00A41633</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Resources</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2F9B1D8518D28ABA00A41633</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>name</key>
-			<string>bottomright.png</string>
-			<key>path</key>
-			<string>SimonRemote/bottomright.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2F9B1D8818D2B77C00A41633</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2F9B1D8918D2B77C00A41633</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>MainMenu.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2F9B1D8918D2B77C00A41633</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.xib</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>SimonRemote/en.lproj/MainMenu.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2F9B1D8C18D2B82700A41633</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2F9B1D8518D28ABA00A41633</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2F9B1D8D18D2B82700A41633</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DD4F7C4913C322FA00825C6E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2F9B1D8E18D2B82700A41633</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DDF4EFAB16C80A510044D141</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2F9B1D8F18D2B82700A41633</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DD4F7C4A13C322FA00825C6E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2F9B1D9018D2B82700A41633</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DDF4EFAD16C80AD30044D141</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2F9B1D9118D2B82700A41633</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2F9B1D8818D2B77C00A41633</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2F9B1D9218D2B82700A41633</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DD4F7C4013C31B4A00825C6E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2FA264D5191C9D4200AF1175</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>dsa_pub.pem</string>
-			<key>path</key>
-			<string>SimonRemote/dsa_pub.pem</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2FA264D6191C9D4200AF1175</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2FA264D5191C9D4200AF1175</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2FAB738B19060B0C00F36112</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file</string>
-			<key>name</key>
-			<string>Spotify-disable_shuffle.scpt</string>
-			<key>path</key>
-			<string>SimonRemote/Scripts/Spotify/Spotify-disable_shuffle.scpt</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2FAB738C19060B0C00F36112</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file</string>
-			<key>name</key>
-			<string>Spotify-enable_shuffle.scpt</string>
-			<key>path</key>
-			<string>SimonRemote/Scripts/Spotify/Spotify-enable_shuffle.scpt</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2FAB738D19060B0C00F36112</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2FAB738B19060B0C00F36112</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2FAB738E19060B0C00F36112</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2FAB738C19060B0C00F36112</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2FAB738F190614AF00F36112</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file</string>
-			<key>name</key>
-			<string>PowerPoint-info.scpt</string>
-			<key>path</key>
-			<string>SimonRemote/Scripts/PowerPoint/PowerPoint-info.scpt</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2FAB7390190614AF00F36112</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2FAB738F190614AF00F36112</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2FAB73911906D87900F36112</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file</string>
-			<key>name</key>
-			<string>Spotify-next.scpt</string>
-			<key>path</key>
-			<string>SimonRemote/Scripts/Spotify/Spotify-next.scpt</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2FAB73921906D87900F36112</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file</string>
-			<key>name</key>
-			<string>Spotify-previous.scpt</string>
-			<key>path</key>
-			<string>SimonRemote/Scripts/Spotify/Spotify-previous.scpt</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2FAB73931906D87900F36112</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2FAB73911906D87900F36112</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2FAB73941906D87900F36112</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2FAB73921906D87900F36112</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2FAB73951906D88700F36112</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file</string>
-			<key>name</key>
-			<string>iTunes-next.scpt</string>
-			<key>path</key>
-			<string>SimonRemote/Scripts/iTunes/iTunes-next.scpt</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2FAB73961906D88700F36112</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file</string>
-			<key>name</key>
-			<string>iTunes-previous.scpt</string>
-			<key>path</key>
-			<string>SimonRemote/Scripts/iTunes/iTunes-previous.scpt</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2FAB73971906D88700F36112</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2FAB73951906D88700F36112</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2FAB73981906D88700F36112</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2FAB73961906D88700F36112</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2FAB73991906D89F00F36112</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2FAB739A1906D8B200F36112</string>
-				<string>2FAB739B1906D8B200F36112</string>
-				<string>2FAB739C1906D8B200F36112</string>
-				<string>2FAB739D1906D8B200F36112</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Keynote</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2FAB739A1906D8B200F36112</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file</string>
-			<key>name</key>
-			<string>Keynote-info.scpt</string>
-			<key>path</key>
-			<string>SimonRemote/Scripts/Keynote/Keynote-info.scpt</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2FAB739B1906D8B200F36112</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file</string>
-			<key>name</key>
-			<string>Keynote-next.scpt</string>
-			<key>path</key>
-			<string>SimonRemote/Scripts/Keynote/Keynote-next.scpt</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2FAB739C1906D8B200F36112</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file</string>
-			<key>name</key>
-			<string>Keynote-previous.scpt</string>
-			<key>path</key>
-			<string>SimonRemote/Scripts/Keynote/Keynote-previous.scpt</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2FAB739D1906D8B200F36112</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file</string>
-			<key>name</key>
-			<string>Keynote-start_slideshow.scpt</string>
-			<key>path</key>
-			<string>SimonRemote/Scripts/Keynote/Keynote-start_slideshow.scpt</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2FAB739E1906D8B200F36112</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2FAB739A1906D8B200F36112</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2FAB739F1906D8B200F36112</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2FAB739B1906D8B200F36112</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2FAB73A01906D8B200F36112</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2FAB739C1906D8B200F36112</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2FAB73A11906D8B200F36112</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2FAB739D1906D8B200F36112</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2FC629C518D3A9D300A7CA1F</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>SRConnection.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2FC629C618D3A9D300A7CA1F</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>SRConnection.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2FC629C718D3A9D300A7CA1F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2FC629C618D3A9D300A7CA1F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2FC629C818D3AA1300A7CA1F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2FD6928F18DFD44700C8A1C9</string>
-				<string>2FD6929018DFD44700C8A1C9</string>
-				<string>2FD6924118DCB97C00C8A1C9</string>
-				<string>2FD6924218DCB97C00C8A1C9</string>
-				<string>2FC629C518D3A9D300A7CA1F</string>
-				<string>2FC629C618D3A9D300A7CA1F</string>
-				<string>2FC629CB18D3B30900A7CA1F</string>
-				<string>2FC629CC18D3B30900A7CA1F</string>
-				<string>2F8046F818D3DE5E0078905C</string>
-				<string>2F8046F918D3DE5E0078905C</string>
-				<string>2F8046FB18D3E6800078905C</string>
-				<string>2F8046FC18D3E6800078905C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>MyFiles</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2FC629CB18D3B30900A7CA1F</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>SRMessenger.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2FC629CC18D3B30900A7CA1F</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>SRMessenger.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2FC629CD18D3B30900A7CA1F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2FC629CC18D3B30900A7CA1F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2FCFACA219119C8D00508B0A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file</string>
-			<key>name</key>
-			<string>System-down.scpt</string>
-			<key>path</key>
-			<string>SimonRemote/Scripts/System/System-down.scpt</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2FCFACA319119C8D00508B0A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file</string>
-			<key>name</key>
-			<string>System-info.scpt</string>
-			<key>path</key>
-			<string>SimonRemote/Scripts/System/System-info.scpt</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2FCFACA419119C8D00508B0A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file</string>
-			<key>name</key>
-			<string>System-left.scpt</string>
-			<key>path</key>
-			<string>SimonRemote/Scripts/System/System-left.scpt</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2FCFACA519119C8D00508B0A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file</string>
-			<key>name</key>
-			<string>System-right.scpt</string>
-			<key>path</key>
-			<string>SimonRemote/Scripts/System/System-right.scpt</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2FCFACA619119C8D00508B0A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file</string>
-			<key>name</key>
-			<string>System-space.scpt</string>
-			<key>path</key>
-			<string>SimonRemote/Scripts/System/System-space.scpt</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2FCFACA719119C8D00508B0A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file</string>
-			<key>name</key>
-			<string>System-up.scpt</string>
-			<key>path</key>
-			<string>SimonRemote/Scripts/System/System-up.scpt</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2FCFACA819119C8D00508B0A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2FCFACA219119C8D00508B0A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2FCFACA919119C8D00508B0A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2FCFACA319119C8D00508B0A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2FCFACAA19119C8D00508B0A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2FCFACA419119C8D00508B0A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2FCFACAB19119C8D00508B0A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2FCFACA519119C8D00508B0A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2FCFACAC19119C8D00508B0A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2FCFACA619119C8D00508B0A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2FCFACAD19119C8D00508B0A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2FCFACA719119C8D00508B0A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2FD6923D18DBEB0800C8A1C9</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file</string>
-			<key>name</key>
-			<string>iTunes-playpause.scpt</string>
-			<key>path</key>
-			<string>SimonRemote/Scripts/iTunes/iTunes-playpause.scpt</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2FD6923E18DBEB0800C8A1C9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2FD6923D18DBEB0800C8A1C9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2FD6923F18DCA70B00C8A1C9</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file</string>
-			<key>name</key>
-			<string>iTunes-info.scpt</string>
-			<key>path</key>
-			<string>SimonRemote/Scripts/iTunes/iTunes-info.scpt</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2FD6924018DCA70B00C8A1C9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2FD6923F18DCA70B00C8A1C9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2FD6924118DCB97C00C8A1C9</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>NSAppleEventDescriptor+FCSAdditions.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2FD6924218DCB97C00C8A1C9</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>NSAppleEventDescriptor+FCSAdditions.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2FD6924318DCB97C00C8A1C9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2FD6924218DCB97C00C8A1C9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2FD6924418DCD30500C8A1C9</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file</string>
-			<key>name</key>
-			<string>Spotify-info.scpt</string>
-			<key>path</key>
-			<string>SimonRemote/Scripts/Spotify/Spotify-info.scpt</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2FD6924518DCD30500C8A1C9</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file</string>
-			<key>name</key>
-			<string>Spotify-playpause.scpt</string>
-			<key>path</key>
-			<string>SimonRemote/Scripts/Spotify/Spotify-playpause.scpt</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2FD6924618DCD30500C8A1C9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2FD6924418DCD30500C8A1C9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2FD6924718DCD30500C8A1C9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2FD6924518DCD30500C8A1C9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2FD6924C18DD065000C8A1C9</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2FCFACA219119C8D00508B0A</string>
-				<string>2FCFACA319119C8D00508B0A</string>
-				<string>2FCFACA419119C8D00508B0A</string>
-				<string>2FCFACA519119C8D00508B0A</string>
-				<string>2FCFACA619119C8D00508B0A</string>
-				<string>2FCFACA719119C8D00508B0A</string>
-				<string>2FD6924D18DD06CD00C8A1C9</string>
-				<string>2FD6924E18DD06CD00C8A1C9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>System</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2FD6924D18DD06CD00C8A1C9</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file</string>
-			<key>name</key>
-			<string>System-volume_down.scpt</string>
-			<key>path</key>
-			<string>SimonRemote/Scripts/System/System-volume_down.scpt</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2FD6924E18DD06CD00C8A1C9</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file</string>
-			<key>name</key>
-			<string>System-volume_up.scpt</string>
-			<key>path</key>
-			<string>SimonRemote/Scripts/System/System-volume_up.scpt</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2FD6924F18DD06CD00C8A1C9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2FD6924D18DD06CD00C8A1C9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2FD6925018DD06CD00C8A1C9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2FD6924E18DD06CD00C8A1C9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2FD6928F18DFD44700C8A1C9</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>Reachability.h</string>
-			<key>path</key>
-			<string>Reachability/Reachability.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2FD6929018DFD44700C8A1C9</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>Reachability.m</string>
-			<key>path</key>
-			<string>Reachability/Reachability.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2FD6929118DFD44700C8A1C9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2FD6929018DFD44700C8A1C9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2FD6929218DFD57200C8A1C9</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>SystemConfiguration.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/SystemConfiguration.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>2FD6929318DFD57200C8A1C9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2FD6929218DFD57200C8A1C9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>325F34708E8043C3BE256445</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Pods.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7AC4266516EC44A99EBB9394</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>7F1D9C6C6541435AB39ED88E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>CC38D445BCFB4C0DB6C30924</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Pods-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>DD4F7BF913C30F9F00825C6E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2F9B1D7918D25F2200A41633</string>
-				<string>DD4F7C0E13C30F9F00825C6E</string>
-				<string>DD4F7C2813C3123E00825C6E</string>
-				<string>DD4F7C0713C30F9F00825C6E</string>
-				<string>DD4F7C0513C30F9F00825C6E</string>
-				<string>DD4F7C1013C30F9F00825C6E</string>
-				<string>325F34708E8043C3BE256445</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DD4F7BFB13C30F9F00825C6E</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>DD4F7C0313C30F9F00825C6E</key>
-					<dict>
-						<key>SystemCapabilities</key>
-						<dict>
-							<key>com.apple.Sandbox</key>
-							<dict>
-								<key>enabled</key>
-								<string>0</string>
-							</dict>
-						</dict>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>DD4F7BFE13C30F9F00825C6E</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>DD4F7BF913C30F9F00825C6E</string>
-			<key>productRefGroup</key>
-			<string>DD4F7C0513C30F9F00825C6E</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>DD4F7C0313C30F9F00825C6E</string>
-			</array>
-		</dict>
-		<key>DD4F7BFE13C30F9F00825C6E</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>DD4F7C2013C30F9F00825C6E</string>
-				<string>DD4F7C2113C30F9F00825C6E</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>DD4F7C0013C30F9F00825C6E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>2FD6929118DFD44700C8A1C9</string>
-				<string>DD4F7C1513C30F9F00825C6E</string>
-				<string>DD4F7C1C13C30F9F00825C6E</string>
-				<string>2FD6924318DCB97C00C8A1C9</string>
-				<string>2F8046FD18D3E6800078905C</string>
-				<string>DD4F7C3813C317A500825C6E</string>
-				<string>2FC629CD18D3B30900A7CA1F</string>
-				<string>DD4F7C3C13C3180800825C6E</string>
-				<string>DD4F7C3F13C318D600825C6E</string>
-				<string>DD4F7C4413C31BD200825C6E</string>
-				<string>DD4F7C4713C3208500825C6E</string>
-				<string>2F8046FA18D3DE5E0078905C</string>
-				<string>2FC629C718D3A9D300A7CA1F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>DD4F7C0113C30F9F00825C6E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>2FD6929318DFD57200C8A1C9</string>
-				<string>DD4F7C0913C30F9F00825C6E</string>
-				<string>2892EF3B999F47A09E95CF66</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>DD4F7C0213C30F9F00825C6E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>2F921E2A18DA4E72006E2934</string>
-				<string>2FD6923E18DBEB0800C8A1C9</string>
-				<string>2F921E3318DA52E7006E2934</string>
-				<string>2FD6925018DD06CD00C8A1C9</string>
-				<string>2FCFACA819119C8D00508B0A</string>
-				<string>2F921E2D18DA4E72006E2934</string>
-				<string>2F9B1D8C18D2B82700A41633</string>
-				<string>2F80476A18D3FCB50078905C</string>
-				<string>2FCFACAD19119C8D00508B0A</string>
-				<string>2F21FA8A1904C812002DD68B</string>
-				<string>2FD6924018DCA70B00C8A1C9</string>
-				<string>2F9B1D8D18D2B82700A41633</string>
-				<string>2F921E2E18DA4E72006E2934</string>
-				<string>2FCFACAB19119C8D00508B0A</string>
-				<string>2F9B1D8E18D2B82700A41633</string>
-				<string>2FCFACAA19119C8D00508B0A</string>
-				<string>2F921E1618DA13DA006E2934</string>
-				<string>2FAB739E1906D8B200F36112</string>
-				<string>2F9B1D8F18D2B82700A41633</string>
-				<string>2FAB73A11906D8B200F36112</string>
-				<string>2FAB738E19060B0C00F36112</string>
-				<string>2FD6924618DCD30500C8A1C9</string>
-				<string>2F921E1718DA13DA006E2934</string>
-				<string>2FAB73A01906D8B200F36112</string>
-				<string>2FCFACA919119C8D00508B0A</string>
-				<string>2FAB73941906D87900F36112</string>
-				<string>2F9B1D9018D2B82700A41633</string>
-				<string>2F9B1D9118D2B82700A41633</string>
-				<string>2F80475B18D3FC9F0078905C</string>
-				<string>2F21FA891904C812002DD68B</string>
-				<string>2FAB738D19060B0C00F36112</string>
-				<string>2F80476918D3FCB50078905C</string>
-				<string>2FD6924718DCD30500C8A1C9</string>
-				<string>2FAB7390190614AF00F36112</string>
-				<string>2FAB73931906D87900F36112</string>
-				<string>2F921E3218DA52E7006E2934</string>
-				<string>2FAB73971906D88700F36112</string>
-				<string>2FAB739F1906D8B200F36112</string>
-				<string>2FD6924F18DD06CD00C8A1C9</string>
-				<string>2F80476F18D422F70078905C</string>
-				<string>2FA264D6191C9D4200AF1175</string>
-				<string>2FAB73981906D88700F36112</string>
-				<string>2F9B1D9218D2B82700A41633</string>
-				<string>2FCFACAC19119C8D00508B0A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>DD4F7C0313C30F9F00825C6E</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>DD4F7C2213C30F9F00825C6E</string>
-			<key>buildPhases</key>
-			<array>
-				<string>7F1D9C6C6541435AB39ED88E</string>
-				<string>DD4F7C0013C30F9F00825C6E</string>
-				<string>DD4F7C0113C30F9F00825C6E</string>
-				<string>DD4F7C0213C30F9F00825C6E</string>
-				<string>2F3C8D661915D74300E33C56</string>
-				<string>CC38D445BCFB4C0DB6C30924</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>SimonRemote</string>
-			<key>productName</key>
-			<string>SimonRemote</string>
-			<key>productReference</key>
-			<string>DD4F7C0413C30F9F00825C6E</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>DD4F7C0413C30F9F00825C6E</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>SimonRemote.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>DD4F7C0513C30F9F00825C6E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DD4F7C0413C30F9F00825C6E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DD4F7C0713C30F9F00825C6E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2FD6929218DFD57200C8A1C9</string>
-				<string>DD4F7C0B13C30F9F00825C6E</string>
-				<string>DD4F7C0C13C30F9F00825C6E</string>
-				<string>DD4F7C0D13C30F9F00825C6E</string>
-				<string>DD4F7C0813C30F9F00825C6E</string>
-				<string>7AC4266516EC44A99EBB9394</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DD4F7C0813C30F9F00825C6E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Cocoa.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/Cocoa.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>DD4F7C0913C30F9F00825C6E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DD4F7C0813C30F9F00825C6E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DD4F7C0B13C30F9F00825C6E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>AppKit.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/AppKit.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>DD4F7C0C13C30F9F00825C6E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreData.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/CoreData.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>DD4F7C0D13C30F9F00825C6E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>DD4F7C0E13C30F9F00825C6E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2FC629C818D3AA1300A7CA1F</string>
-				<string>DD4F7C2613C311DF00825C6E</string>
-				<string>DD4F7C3913C317EC00825C6E</string>
-				<string>DD4F7C0F13C30F9F00825C6E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Sources</string>
-			<key>path</key>
-			<string>SimonRemote</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DD4F7C0F13C30F9F00825C6E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DD4F7C1613C30F9F00825C6E</string>
-				<string>DD4F7C1413C30F9F00825C6E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DD4F7C1013C30F9F00825C6E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>name</key>
-			<string>SimonRemote-Info.plist</string>
-			<key>path</key>
-			<string>SimonRemote/SimonRemote-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DD4F7C1413C30F9F00825C6E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DD4F7C1513C30F9F00825C6E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DD4F7C1413C30F9F00825C6E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DD4F7C1613C30F9F00825C6E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>SimonRemote-Prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DD4F7C1A13C30F9F00825C6E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>ApplicationDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DD4F7C1B13C30F9F00825C6E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>ApplicationDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DD4F7C1C13C30F9F00825C6E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DD4F7C1B13C30F9F00825C6E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DD4F7C2013C30F9F00825C6E</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_ENABLE_OBJC_EXCEPTIONS</key>
-				<string>YES</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_MISSING_PROTOTYPES</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>MACOSX_DEPLOYMENT_TARGET</key>
-				<string>10.6</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>macosx</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>DD4F7C2113C30F9F00825C6E</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_ENABLE_OBJC_EXCEPTIONS</key>
-				<string>YES</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_MISSING_PROTOTYPES</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>MACOSX_DEPLOYMENT_TARGET</key>
-				<string>10.6</string>
-				<key>SDKROOT</key>
-				<string>macosx</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>DD4F7C2213C30F9F00825C6E</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>DD4F7C2313C30F9F00825C6E</string>
-				<string>DD4F7C2413C30F9F00825C6E</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>DD4F7C2313C30F9F00825C6E</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>325F34708E8043C3BE256445</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY</key>
-				<string></string>
-				<key>COMBINE_HIDPI_IMAGES</key>
-				<string>YES</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>SimonRemote/SimonRemote-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>SimonRemote/SimonRemote-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>SimonRemote</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>DD4F7C2413C30F9F00825C6E</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>325F34708E8043C3BE256445</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY</key>
-				<string></string>
-				<key>COMBINE_HIDPI_IMAGES</key>
-				<string>YES</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>SimonRemote/SimonRemote-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>SimonRemote/SimonRemote-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>SimonRemote</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>DD4F7C2613C311DF00825C6E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DD4F7C1A13C30F9F00825C6E</string>
-				<string>DD4F7C1B13C30F9F00825C6E</string>
-				<string>DD4F7C3613C317A500825C6E</string>
-				<string>DD4F7C3713C317A500825C6E</string>
-				<string>DD4F7C3D13C318D600825C6E</string>
-				<string>DD4F7C3E13C318D600825C6E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Controllers</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DD4F7C2813C3123E00825C6E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DD4F7C4813C322D800825C6E</string>
-				<string>DD4F7C2913C3124300825C6E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>User Interface</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DD4F7C2913C3124300825C6E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2F9B1D8818D2B77C00A41633</string>
-				<string>2F80476E18D422F70078905C</string>
-				<string>DD4F7C4013C31B4A00825C6E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>XIBs</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DD4F7C3613C317A500825C6E</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>MenubarController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DD4F7C3713C317A500825C6E</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>MenubarController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DD4F7C3813C317A500825C6E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DD4F7C3713C317A500825C6E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DD4F7C3913C317EC00825C6E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DD4F7C4213C31BD200825C6E</string>
-				<string>DD4F7C4313C31BD200825C6E</string>
-				<string>DD4F7C3A13C3180800825C6E</string>
-				<string>DD4F7C3B13C3180800825C6E</string>
-				<string>DD4F7C4513C3208500825C6E</string>
-				<string>DD4F7C4613C3208500825C6E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Views</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DD4F7C3A13C3180800825C6E</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>StatusItemView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DD4F7C3B13C3180800825C6E</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>StatusItemView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DD4F7C3C13C3180800825C6E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DD4F7C3B13C3180800825C6E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DD4F7C3D13C318D600825C6E</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PanelController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DD4F7C3E13C318D600825C6E</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PanelController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DD4F7C3F13C318D600825C6E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DD4F7C3E13C318D600825C6E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DD4F7C4013C31B4A00825C6E</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.xib</string>
-			<key>name</key>
-			<string>Panel.xib</string>
-			<key>path</key>
-			<string>SimonRemote/Panel.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DD4F7C4213C31BD200825C6E</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Panel.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DD4F7C4313C31BD200825C6E</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Panel.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DD4F7C4413C31BD200825C6E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DD4F7C4313C31BD200825C6E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DD4F7C4513C3208500825C6E</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>BackgroundView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DD4F7C4613C3208500825C6E</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>BackgroundView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DD4F7C4713C3208500825C6E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DD4F7C4613C3208500825C6E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DD4F7C4813C322D800825C6E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DD4F7C4913C322FA00825C6E</string>
-				<string>DDF4EFAB16C80A510044D141</string>
-				<string>DD4F7C4A13C322FA00825C6E</string>
-				<string>DDF4EFAD16C80AD30044D141</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Graphics</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DD4F7C4913C322FA00825C6E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>name</key>
-			<string>Status.png</string>
-			<key>path</key>
-			<string>SimonRemote/Status.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DD4F7C4A13C322FA00825C6E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>name</key>
-			<string>StatusHighlighted.png</string>
-			<key>path</key>
-			<string>SimonRemote/StatusHighlighted.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DDF4EFAB16C80A510044D141</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>name</key>
-			<string>Status@2x.png</string>
-			<key>path</key>
-			<string>SimonRemote/Status@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DDF4EFAD16C80AD30044D141</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>name</key>
-			<string>StatusHighlighted@2x.png</string>
-			<key>path</key>
-			<string>SimonRemote/StatusHighlighted@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>DD4F7BFB13C30F9F00825C6E</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F21FA891904C812002DD68B /* iTunes-disable_shuffle.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2F21FA871904C812002DD68B /* iTunes-disable_shuffle.scpt */; };
+		2F21FA8A1904C812002DD68B /* iTunes-enable_shuffle.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2F21FA881904C812002DD68B /* iTunes-enable_shuffle.scpt */; };
+		2F7BD22A191E683A00C1362A /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F7BD228191E683A00C1362A /* Sparkle.framework */; };
+		2F7BD22B191E683A00C1362A /* SocketRocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F7BD229191E683A00C1362A /* SocketRocket.framework */; };
+		2F8046FA18D3DE5E0078905C /* SRRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8046F918D3DE5E0078905C /* SRRunner.m */; };
+		2F8046FD18D3E6800078905C /* SRActionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8046FC18D3E6800078905C /* SRActionHandler.m */; };
+		2F80475B18D3FC9F0078905C /* bottomleft.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F80475A18D3FC9F0078905C /* bottomleft.png */; };
+		2F80476918D3FCB50078905C /* Spotify-pause.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2F80476018D3FCB50078905C /* Spotify-pause.scpt */; };
+		2F80476A18D3FCB50078905C /* Spotify-play.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2F80476118D3FCB50078905C /* Spotify-play.scpt */; };
+		2F80476F18D422F70078905C /* PreferenceWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F80476E18D422F70078905C /* PreferenceWindow.xib */; };
+		2F921E1618DA13DA006E2934 /* iTunes-pause.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2F921E0F18DA13DA006E2934 /* iTunes-pause.scpt */; };
+		2F921E1718DA13DA006E2934 /* iTunes-play.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2F921E1018DA13DA006E2934 /* iTunes-play.scpt */; };
+		2F921E2A18DA4E72006E2934 /* PowerPoint-black_screen.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2F921E2518DA4E72006E2934 /* PowerPoint-black_screen.scpt */; };
+		2F921E2D18DA4E72006E2934 /* PowerPoint-start_slideshow.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2F921E2818DA4E72006E2934 /* PowerPoint-start_slideshow.scpt */; };
+		2F921E2E18DA4E72006E2934 /* PowerPoint-white_screen.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2F921E2918DA4E72006E2934 /* PowerPoint-white_screen.scpt */; };
+		2F921E3218DA52E7006E2934 /* PowerPoint-next.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2F921E3018DA52E7006E2934 /* PowerPoint-next.scpt */; };
+		2F921E3318DA52E7006E2934 /* PowerPoint-previous.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2F921E3118DA52E7006E2934 /* PowerPoint-previous.scpt */; };
+		2F9B1D8C18D2B82700A41633 /* bottomright.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F9B1D8518D28ABA00A41633 /* bottomright.png */; };
+		2F9B1D8D18D2B82700A41633 /* Status.png in Resources */ = {isa = PBXBuildFile; fileRef = DD4F7C4913C322FA00825C6E /* Status.png */; };
+		2F9B1D8E18D2B82700A41633 /* Status@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDF4EFAB16C80A510044D141 /* Status@2x.png */; };
+		2F9B1D8F18D2B82700A41633 /* StatusHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = DD4F7C4A13C322FA00825C6E /* StatusHighlighted.png */; };
+		2F9B1D9018D2B82700A41633 /* StatusHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDF4EFAD16C80AD30044D141 /* StatusHighlighted@2x.png */; };
+		2F9B1D9118D2B82700A41633 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F9B1D8818D2B77C00A41633 /* MainMenu.xib */; };
+		2F9B1D9218D2B82700A41633 /* Panel.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD4F7C4013C31B4A00825C6E /* Panel.xib */; };
+		2FA264D6191C9D4200AF1175 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 2FA264D5191C9D4200AF1175 /* dsa_pub.pem */; };
+		2FAB738D19060B0C00F36112 /* Spotify-disable_shuffle.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2FAB738B19060B0C00F36112 /* Spotify-disable_shuffle.scpt */; };
+		2FAB738E19060B0C00F36112 /* Spotify-enable_shuffle.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2FAB738C19060B0C00F36112 /* Spotify-enable_shuffle.scpt */; };
+		2FAB7390190614AF00F36112 /* PowerPoint-info.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2FAB738F190614AF00F36112 /* PowerPoint-info.scpt */; };
+		2FAB73931906D87900F36112 /* Spotify-next.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2FAB73911906D87900F36112 /* Spotify-next.scpt */; };
+		2FAB73941906D87900F36112 /* Spotify-previous.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2FAB73921906D87900F36112 /* Spotify-previous.scpt */; };
+		2FAB73971906D88700F36112 /* iTunes-next.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2FAB73951906D88700F36112 /* iTunes-next.scpt */; };
+		2FAB73981906D88700F36112 /* iTunes-previous.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2FAB73961906D88700F36112 /* iTunes-previous.scpt */; };
+		2FAB739E1906D8B200F36112 /* Keynote-info.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2FAB739A1906D8B200F36112 /* Keynote-info.scpt */; };
+		2FAB739F1906D8B200F36112 /* Keynote-next.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2FAB739B1906D8B200F36112 /* Keynote-next.scpt */; };
+		2FAB73A01906D8B200F36112 /* Keynote-previous.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2FAB739C1906D8B200F36112 /* Keynote-previous.scpt */; };
+		2FAB73A11906D8B200F36112 /* Keynote-start_slideshow.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2FAB739D1906D8B200F36112 /* Keynote-start_slideshow.scpt */; };
+		2FC629C718D3A9D300A7CA1F /* SRConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC629C618D3A9D300A7CA1F /* SRConnection.m */; };
+		2FC629CD18D3B30900A7CA1F /* SRMessenger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC629CC18D3B30900A7CA1F /* SRMessenger.m */; };
+		2FCFACA819119C8D00508B0A /* System-down.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2FCFACA219119C8D00508B0A /* System-down.scpt */; };
+		2FCFACA919119C8D00508B0A /* System-info.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2FCFACA319119C8D00508B0A /* System-info.scpt */; };
+		2FCFACAA19119C8D00508B0A /* System-left.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2FCFACA419119C8D00508B0A /* System-left.scpt */; };
+		2FCFACAB19119C8D00508B0A /* System-right.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2FCFACA519119C8D00508B0A /* System-right.scpt */; };
+		2FCFACAC19119C8D00508B0A /* System-space.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2FCFACA619119C8D00508B0A /* System-space.scpt */; };
+		2FCFACAD19119C8D00508B0A /* System-up.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2FCFACA719119C8D00508B0A /* System-up.scpt */; };
+		2FD6923E18DBEB0800C8A1C9 /* iTunes-playpause.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2FD6923D18DBEB0800C8A1C9 /* iTunes-playpause.scpt */; };
+		2FD6924018DCA70B00C8A1C9 /* iTunes-info.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2FD6923F18DCA70B00C8A1C9 /* iTunes-info.scpt */; };
+		2FD6924318DCB97C00C8A1C9 /* NSAppleEventDescriptor+FCSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD6924218DCB97C00C8A1C9 /* NSAppleEventDescriptor+FCSAdditions.m */; };
+		2FD6924618DCD30500C8A1C9 /* Spotify-info.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2FD6924418DCD30500C8A1C9 /* Spotify-info.scpt */; };
+		2FD6924718DCD30500C8A1C9 /* Spotify-playpause.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2FD6924518DCD30500C8A1C9 /* Spotify-playpause.scpt */; };
+		2FD6924F18DD06CD00C8A1C9 /* System-volume_down.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2FD6924D18DD06CD00C8A1C9 /* System-volume_down.scpt */; };
+		2FD6925018DD06CD00C8A1C9 /* System-volume_up.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2FD6924E18DD06CD00C8A1C9 /* System-volume_up.scpt */; };
+		2FD6929118DFD44700C8A1C9 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD6929018DFD44700C8A1C9 /* Reachability.m */; };
+		2FD6929318DFD57200C8A1C9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FD6929218DFD57200C8A1C9 /* SystemConfiguration.framework */; };
+		DD4F7C0913C30F9F00825C6E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD4F7C0813C30F9F00825C6E /* Cocoa.framework */; };
+		DD4F7C1513C30F9F00825C6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4F7C1413C30F9F00825C6E /* main.m */; };
+		DD4F7C1C13C30F9F00825C6E /* ApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4F7C1B13C30F9F00825C6E /* ApplicationDelegate.m */; };
+		DD4F7C3813C317A500825C6E /* MenubarController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4F7C3713C317A500825C6E /* MenubarController.m */; };
+		DD4F7C3C13C3180800825C6E /* StatusItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4F7C3B13C3180800825C6E /* StatusItemView.m */; };
+		DD4F7C3F13C318D600825C6E /* PanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4F7C3E13C318D600825C6E /* PanelController.m */; };
+		DD4F7C4413C31BD200825C6E /* Panel.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4F7C4313C31BD200825C6E /* Panel.m */; };
+		DD4F7C4713C3208500825C6E /* BackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4F7C4613C3208500825C6E /* BackgroundView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2F3C8D661915D74300E33C56 /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2F21FA871904C812002DD68B /* iTunes-disable_shuffle.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "iTunes-disable_shuffle.scpt"; path = "SimonRemote/Scripts/iTunes/iTunes-disable_shuffle.scpt"; sourceTree = "<group>"; };
+		2F21FA881904C812002DD68B /* iTunes-enable_shuffle.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "iTunes-enable_shuffle.scpt"; path = "SimonRemote/Scripts/iTunes/iTunes-enable_shuffle.scpt"; sourceTree = "<group>"; };
+		2F7BD228191E683A00C1362A /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = ../../../../../../Library/Frameworks/Sparkle.framework; sourceTree = "<group>"; };
+		2F7BD229191E683A00C1362A /* SocketRocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SocketRocket.framework; path = ../../../../../../Library/Frameworks/SocketRocket.framework; sourceTree = "<group>"; };
+		2F8046F818D3DE5E0078905C /* SRRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRRunner.h; sourceTree = "<group>"; };
+		2F8046F918D3DE5E0078905C /* SRRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRRunner.m; sourceTree = "<group>"; };
+		2F8046FB18D3E6800078905C /* SRActionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRActionHandler.h; sourceTree = "<group>"; };
+		2F8046FC18D3E6800078905C /* SRActionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRActionHandler.m; sourceTree = "<group>"; };
+		2F80475A18D3FC9F0078905C /* bottomleft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bottomleft.png; path = SimonRemote/bottomleft.png; sourceTree = "<group>"; };
+		2F80476018D3FCB50078905C /* Spotify-pause.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Spotify-pause.scpt"; path = "SimonRemote/Scripts/Spotify/Spotify-pause.scpt"; sourceTree = "<group>"; };
+		2F80476118D3FCB50078905C /* Spotify-play.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Spotify-play.scpt"; path = "SimonRemote/Scripts/Spotify/Spotify-play.scpt"; sourceTree = "<group>"; };
+		2F80476E18D422F70078905C /* PreferenceWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PreferenceWindow.xib; path = SimonRemote/PreferenceWindow.xib; sourceTree = "<group>"; };
+		2F921E0F18DA13DA006E2934 /* iTunes-pause.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "iTunes-pause.scpt"; path = "SimonRemote/Scripts/iTunes/iTunes-pause.scpt"; sourceTree = "<group>"; };
+		2F921E1018DA13DA006E2934 /* iTunes-play.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "iTunes-play.scpt"; path = "SimonRemote/Scripts/iTunes/iTunes-play.scpt"; sourceTree = "<group>"; };
+		2F921E2518DA4E72006E2934 /* PowerPoint-black_screen.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PowerPoint-black_screen.scpt"; path = "SimonRemote/Scripts/PowerPoint/PowerPoint-black_screen.scpt"; sourceTree = "<group>"; };
+		2F921E2818DA4E72006E2934 /* PowerPoint-start_slideshow.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PowerPoint-start_slideshow.scpt"; path = "SimonRemote/Scripts/PowerPoint/PowerPoint-start_slideshow.scpt"; sourceTree = "<group>"; };
+		2F921E2918DA4E72006E2934 /* PowerPoint-white_screen.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PowerPoint-white_screen.scpt"; path = "SimonRemote/Scripts/PowerPoint/PowerPoint-white_screen.scpt"; sourceTree = "<group>"; };
+		2F921E3018DA52E7006E2934 /* PowerPoint-next.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PowerPoint-next.scpt"; path = "SimonRemote/Scripts/PowerPoint/PowerPoint-next.scpt"; sourceTree = "<group>"; };
+		2F921E3118DA52E7006E2934 /* PowerPoint-previous.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PowerPoint-previous.scpt"; path = "SimonRemote/Scripts/PowerPoint/PowerPoint-previous.scpt"; sourceTree = "<group>"; };
+		2F9B1D8518D28ABA00A41633 /* bottomright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bottomright.png; path = SimonRemote/bottomright.png; sourceTree = "<group>"; };
+		2F9B1D8918D2B77C00A41633 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = SimonRemote/en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2FA264D5191C9D4200AF1175 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = dsa_pub.pem; path = SimonRemote/dsa_pub.pem; sourceTree = "<group>"; };
+		2FAB738B19060B0C00F36112 /* Spotify-disable_shuffle.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Spotify-disable_shuffle.scpt"; path = "SimonRemote/Scripts/Spotify/Spotify-disable_shuffle.scpt"; sourceTree = "<group>"; };
+		2FAB738C19060B0C00F36112 /* Spotify-enable_shuffle.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Spotify-enable_shuffle.scpt"; path = "SimonRemote/Scripts/Spotify/Spotify-enable_shuffle.scpt"; sourceTree = "<group>"; };
+		2FAB738F190614AF00F36112 /* PowerPoint-info.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PowerPoint-info.scpt"; path = "SimonRemote/Scripts/PowerPoint/PowerPoint-info.scpt"; sourceTree = "<group>"; };
+		2FAB73911906D87900F36112 /* Spotify-next.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Spotify-next.scpt"; path = "SimonRemote/Scripts/Spotify/Spotify-next.scpt"; sourceTree = "<group>"; };
+		2FAB73921906D87900F36112 /* Spotify-previous.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Spotify-previous.scpt"; path = "SimonRemote/Scripts/Spotify/Spotify-previous.scpt"; sourceTree = "<group>"; };
+		2FAB73951906D88700F36112 /* iTunes-next.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "iTunes-next.scpt"; path = "SimonRemote/Scripts/iTunes/iTunes-next.scpt"; sourceTree = "<group>"; };
+		2FAB73961906D88700F36112 /* iTunes-previous.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "iTunes-previous.scpt"; path = "SimonRemote/Scripts/iTunes/iTunes-previous.scpt"; sourceTree = "<group>"; };
+		2FAB739A1906D8B200F36112 /* Keynote-info.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Keynote-info.scpt"; path = "SimonRemote/Scripts/Keynote/Keynote-info.scpt"; sourceTree = "<group>"; };
+		2FAB739B1906D8B200F36112 /* Keynote-next.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Keynote-next.scpt"; path = "SimonRemote/Scripts/Keynote/Keynote-next.scpt"; sourceTree = "<group>"; };
+		2FAB739C1906D8B200F36112 /* Keynote-previous.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Keynote-previous.scpt"; path = "SimonRemote/Scripts/Keynote/Keynote-previous.scpt"; sourceTree = "<group>"; };
+		2FAB739D1906D8B200F36112 /* Keynote-start_slideshow.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Keynote-start_slideshow.scpt"; path = "SimonRemote/Scripts/Keynote/Keynote-start_slideshow.scpt"; sourceTree = "<group>"; };
+		2FC629C518D3A9D300A7CA1F /* SRConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRConnection.h; sourceTree = "<group>"; };
+		2FC629C618D3A9D300A7CA1F /* SRConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRConnection.m; sourceTree = "<group>"; };
+		2FC629CB18D3B30900A7CA1F /* SRMessenger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRMessenger.h; sourceTree = "<group>"; };
+		2FC629CC18D3B30900A7CA1F /* SRMessenger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRMessenger.m; sourceTree = "<group>"; };
+		2FCFACA219119C8D00508B0A /* System-down.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "System-down.scpt"; path = "SimonRemote/Scripts/System/System-down.scpt"; sourceTree = "<group>"; };
+		2FCFACA319119C8D00508B0A /* System-info.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "System-info.scpt"; path = "SimonRemote/Scripts/System/System-info.scpt"; sourceTree = "<group>"; };
+		2FCFACA419119C8D00508B0A /* System-left.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "System-left.scpt"; path = "SimonRemote/Scripts/System/System-left.scpt"; sourceTree = "<group>"; };
+		2FCFACA519119C8D00508B0A /* System-right.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "System-right.scpt"; path = "SimonRemote/Scripts/System/System-right.scpt"; sourceTree = "<group>"; };
+		2FCFACA619119C8D00508B0A /* System-space.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "System-space.scpt"; path = "SimonRemote/Scripts/System/System-space.scpt"; sourceTree = "<group>"; };
+		2FCFACA719119C8D00508B0A /* System-up.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "System-up.scpt"; path = "SimonRemote/Scripts/System/System-up.scpt"; sourceTree = "<group>"; };
+		2FD6923D18DBEB0800C8A1C9 /* iTunes-playpause.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "iTunes-playpause.scpt"; path = "SimonRemote/Scripts/iTunes/iTunes-playpause.scpt"; sourceTree = "<group>"; };
+		2FD6923F18DCA70B00C8A1C9 /* iTunes-info.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "iTunes-info.scpt"; path = "SimonRemote/Scripts/iTunes/iTunes-info.scpt"; sourceTree = "<group>"; };
+		2FD6924118DCB97C00C8A1C9 /* NSAppleEventDescriptor+FCSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAppleEventDescriptor+FCSAdditions.h"; sourceTree = "<group>"; };
+		2FD6924218DCB97C00C8A1C9 /* NSAppleEventDescriptor+FCSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAppleEventDescriptor+FCSAdditions.m"; sourceTree = "<group>"; };
+		2FD6924418DCD30500C8A1C9 /* Spotify-info.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Spotify-info.scpt"; path = "SimonRemote/Scripts/Spotify/Spotify-info.scpt"; sourceTree = "<group>"; };
+		2FD6924518DCD30500C8A1C9 /* Spotify-playpause.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Spotify-playpause.scpt"; path = "SimonRemote/Scripts/Spotify/Spotify-playpause.scpt"; sourceTree = "<group>"; };
+		2FD6924D18DD06CD00C8A1C9 /* System-volume_down.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "System-volume_down.scpt"; path = "SimonRemote/Scripts/System/System-volume_down.scpt"; sourceTree = "<group>"; };
+		2FD6924E18DD06CD00C8A1C9 /* System-volume_up.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "System-volume_up.scpt"; path = "SimonRemote/Scripts/System/System-volume_up.scpt"; sourceTree = "<group>"; };
+		2FD6928F18DFD44700C8A1C9 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = Reachability/Reachability.h; sourceTree = "<group>"; };
+		2FD6929018DFD44700C8A1C9 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = Reachability/Reachability.m; sourceTree = "<group>"; };
+		2FD6929218DFD57200C8A1C9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DD4F7C0413C30F9F00825C6E /* SimonRemote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimonRemote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD4F7C0813C30F9F00825C6E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		DD4F7C0B13C30F9F00825C6E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		DD4F7C0C13C30F9F00825C6E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DD4F7C0D13C30F9F00825C6E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DD4F7C1013C30F9F00825C6E /* SimonRemote-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SimonRemote-Info.plist"; path = "SimonRemote/SimonRemote-Info.plist"; sourceTree = "<group>"; };
+		DD4F7C1413C30F9F00825C6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD4F7C1613C30F9F00825C6E /* SimonRemote-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimonRemote-Prefix.pch"; sourceTree = "<group>"; };
+		DD4F7C1A13C30F9F00825C6E /* ApplicationDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApplicationDelegate.h; sourceTree = "<group>"; };
+		DD4F7C1B13C30F9F00825C6E /* ApplicationDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApplicationDelegate.m; sourceTree = "<group>"; };
+		DD4F7C3613C317A500825C6E /* MenubarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenubarController.h; sourceTree = "<group>"; };
+		DD4F7C3713C317A500825C6E /* MenubarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenubarController.m; sourceTree = "<group>"; };
+		DD4F7C3A13C3180800825C6E /* StatusItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusItemView.h; sourceTree = "<group>"; };
+		DD4F7C3B13C3180800825C6E /* StatusItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusItemView.m; sourceTree = "<group>"; };
+		DD4F7C3D13C318D600825C6E /* PanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanelController.h; sourceTree = "<group>"; };
+		DD4F7C3E13C318D600825C6E /* PanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanelController.m; sourceTree = "<group>"; };
+		DD4F7C4013C31B4A00825C6E /* Panel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Panel.xib; path = SimonRemote/Panel.xib; sourceTree = "<group>"; };
+		DD4F7C4213C31BD200825C6E /* Panel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Panel.h; sourceTree = "<group>"; };
+		DD4F7C4313C31BD200825C6E /* Panel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Panel.m; sourceTree = "<group>"; };
+		DD4F7C4513C3208500825C6E /* BackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundView.h; sourceTree = "<group>"; };
+		DD4F7C4613C3208500825C6E /* BackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundView.m; sourceTree = "<group>"; };
+		DD4F7C4913C322FA00825C6E /* Status.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Status.png; path = SimonRemote/Status.png; sourceTree = "<group>"; };
+		DD4F7C4A13C322FA00825C6E /* StatusHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = StatusHighlighted.png; path = SimonRemote/StatusHighlighted.png; sourceTree = "<group>"; };
+		DDF4EFAB16C80A510044D141 /* Status@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Status@2x.png"; path = "SimonRemote/Status@2x.png"; sourceTree = "<group>"; };
+		DDF4EFAD16C80AD30044D141 /* StatusHighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "StatusHighlighted@2x.png"; path = "SimonRemote/StatusHighlighted@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD4F7C0113C30F9F00825C6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F7BD22A191E683A00C1362A /* Sparkle.framework in Frameworks */,
+				2F7BD22B191E683A00C1362A /* SocketRocket.framework in Frameworks */,
+				2FD6929318DFD57200C8A1C9 /* SystemConfiguration.framework in Frameworks */,
+				DD4F7C0913C30F9F00825C6E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F8046F718D3DDD40078905C /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				2FAB73991906D89F00F36112 /* Keynote */,
+				2FD6924C18DD065000C8A1C9 /* System */,
+				2F921E2F18DA4E99006E2934 /* PowerPoint */,
+				2F921E1918DA13EF006E2934 /* iTunes */,
+				2F921E1A18DA13F9006E2934 /* Spotify */,
+			);
+			name = Scripts;
+			sourceTree = "<group>";
+		};
+		2F921E1918DA13EF006E2934 /* iTunes */ = {
+			isa = PBXGroup;
+			children = (
+				2FAB73951906D88700F36112 /* iTunes-next.scpt */,
+				2FAB73961906D88700F36112 /* iTunes-previous.scpt */,
+				2F21FA871904C812002DD68B /* iTunes-disable_shuffle.scpt */,
+				2F21FA881904C812002DD68B /* iTunes-enable_shuffle.scpt */,
+				2FD6923F18DCA70B00C8A1C9 /* iTunes-info.scpt */,
+				2FD6923D18DBEB0800C8A1C9 /* iTunes-playpause.scpt */,
+				2F921E0F18DA13DA006E2934 /* iTunes-pause.scpt */,
+				2F921E1018DA13DA006E2934 /* iTunes-play.scpt */,
+			);
+			name = iTunes;
+			sourceTree = "<group>";
+		};
+		2F921E1A18DA13F9006E2934 /* Spotify */ = {
+			isa = PBXGroup;
+			children = (
+				2FAB73911906D87900F36112 /* Spotify-next.scpt */,
+				2FAB73921906D87900F36112 /* Spotify-previous.scpt */,
+				2FAB738B19060B0C00F36112 /* Spotify-disable_shuffle.scpt */,
+				2FAB738C19060B0C00F36112 /* Spotify-enable_shuffle.scpt */,
+				2FD6924418DCD30500C8A1C9 /* Spotify-info.scpt */,
+				2FD6924518DCD30500C8A1C9 /* Spotify-playpause.scpt */,
+				2F80476018D3FCB50078905C /* Spotify-pause.scpt */,
+				2F80476118D3FCB50078905C /* Spotify-play.scpt */,
+			);
+			name = Spotify;
+			sourceTree = "<group>";
+		};
+		2F921E2F18DA4E99006E2934 /* PowerPoint */ = {
+			isa = PBXGroup;
+			children = (
+				2FAB738F190614AF00F36112 /* PowerPoint-info.scpt */,
+				2F921E2518DA4E72006E2934 /* PowerPoint-black_screen.scpt */,
+				2F921E3018DA52E7006E2934 /* PowerPoint-next.scpt */,
+				2F921E3118DA52E7006E2934 /* PowerPoint-previous.scpt */,
+				2F921E2818DA4E72006E2934 /* PowerPoint-start_slideshow.scpt */,
+				2F921E2918DA4E72006E2934 /* PowerPoint-white_screen.scpt */,
+			);
+			name = PowerPoint;
+			sourceTree = "<group>";
+		};
+		2F9B1D7918D25F2200A41633 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2FA264D5191C9D4200AF1175 /* dsa_pub.pem */,
+				2F8046F718D3DDD40078905C /* Scripts */,
+				2F80475A18D3FC9F0078905C /* bottomleft.png */,
+				2F9B1D8518D28ABA00A41633 /* bottomright.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2FAB73991906D89F00F36112 /* Keynote */ = {
+			isa = PBXGroup;
+			children = (
+				2FAB739A1906D8B200F36112 /* Keynote-info.scpt */,
+				2FAB739B1906D8B200F36112 /* Keynote-next.scpt */,
+				2FAB739C1906D8B200F36112 /* Keynote-previous.scpt */,
+				2FAB739D1906D8B200F36112 /* Keynote-start_slideshow.scpt */,
+			);
+			name = Keynote;
+			sourceTree = "<group>";
+		};
+		2FC629C818D3AA1300A7CA1F /* MyFiles */ = {
+			isa = PBXGroup;
+			children = (
+				2FD6928F18DFD44700C8A1C9 /* Reachability.h */,
+				2FD6929018DFD44700C8A1C9 /* Reachability.m */,
+				2FD6924118DCB97C00C8A1C9 /* NSAppleEventDescriptor+FCSAdditions.h */,
+				2FD6924218DCB97C00C8A1C9 /* NSAppleEventDescriptor+FCSAdditions.m */,
+				2FC629C518D3A9D300A7CA1F /* SRConnection.h */,
+				2FC629C618D3A9D300A7CA1F /* SRConnection.m */,
+				2FC629CB18D3B30900A7CA1F /* SRMessenger.h */,
+				2FC629CC18D3B30900A7CA1F /* SRMessenger.m */,
+				2F8046F818D3DE5E0078905C /* SRRunner.h */,
+				2F8046F918D3DE5E0078905C /* SRRunner.m */,
+				2F8046FB18D3E6800078905C /* SRActionHandler.h */,
+				2F8046FC18D3E6800078905C /* SRActionHandler.m */,
+			);
+			name = MyFiles;
+			sourceTree = "<group>";
+		};
+		2FD6924C18DD065000C8A1C9 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				2FCFACA219119C8D00508B0A /* System-down.scpt */,
+				2FCFACA319119C8D00508B0A /* System-info.scpt */,
+				2FCFACA419119C8D00508B0A /* System-left.scpt */,
+				2FCFACA519119C8D00508B0A /* System-right.scpt */,
+				2FCFACA619119C8D00508B0A /* System-space.scpt */,
+				2FCFACA719119C8D00508B0A /* System-up.scpt */,
+				2FD6924D18DD06CD00C8A1C9 /* System-volume_down.scpt */,
+				2FD6924E18DD06CD00C8A1C9 /* System-volume_up.scpt */,
+			);
+			name = System;
+			sourceTree = "<group>";
+		};
+		DD4F7BF913C30F9F00825C6E = {
+			isa = PBXGroup;
+			children = (
+				2F9B1D7918D25F2200A41633 /* Resources */,
+				DD4F7C0E13C30F9F00825C6E /* Sources */,
+				DD4F7C2813C3123E00825C6E /* User Interface */,
+				DD4F7C0713C30F9F00825C6E /* Frameworks */,
+				DD4F7C0513C30F9F00825C6E /* Products */,
+				DD4F7C1013C30F9F00825C6E /* SimonRemote-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		DD4F7C0513C30F9F00825C6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD4F7C0413C30F9F00825C6E /* SimonRemote.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD4F7C0713C30F9F00825C6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F7BD228191E683A00C1362A /* Sparkle.framework */,
+				2F7BD229191E683A00C1362A /* SocketRocket.framework */,
+				2FD6929218DFD57200C8A1C9 /* SystemConfiguration.framework */,
+				DD4F7C0B13C30F9F00825C6E /* AppKit.framework */,
+				DD4F7C0C13C30F9F00825C6E /* CoreData.framework */,
+				DD4F7C0D13C30F9F00825C6E /* Foundation.framework */,
+				DD4F7C0813C30F9F00825C6E /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD4F7C0E13C30F9F00825C6E /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				2FC629C818D3AA1300A7CA1F /* MyFiles */,
+				DD4F7C2613C311DF00825C6E /* Controllers */,
+				DD4F7C3913C317EC00825C6E /* Views */,
+				DD4F7C0F13C30F9F00825C6E /* Supporting Files */,
+			);
+			name = Sources;
+			path = SimonRemote;
+			sourceTree = "<group>";
+		};
+		DD4F7C0F13C30F9F00825C6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD4F7C1613C30F9F00825C6E /* SimonRemote-Prefix.pch */,
+				DD4F7C1413C30F9F00825C6E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD4F7C2613C311DF00825C6E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DD4F7C1A13C30F9F00825C6E /* ApplicationDelegate.h */,
+				DD4F7C1B13C30F9F00825C6E /* ApplicationDelegate.m */,
+				DD4F7C3613C317A500825C6E /* MenubarController.h */,
+				DD4F7C3713C317A500825C6E /* MenubarController.m */,
+				DD4F7C3D13C318D600825C6E /* PanelController.h */,
+				DD4F7C3E13C318D600825C6E /* PanelController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		DD4F7C2813C3123E00825C6E /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				DD4F7C4813C322D800825C6E /* Graphics */,
+				DD4F7C2913C3124300825C6E /* XIBs */,
+			);
+			name = "User Interface";
+			sourceTree = "<group>";
+		};
+		DD4F7C2913C3124300825C6E /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				2F9B1D8818D2B77C00A41633 /* MainMenu.xib */,
+				2F80476E18D422F70078905C /* PreferenceWindow.xib */,
+				DD4F7C4013C31B4A00825C6E /* Panel.xib */,
+			);
+			name = XIBs;
+			sourceTree = "<group>";
+		};
+		DD4F7C3913C317EC00825C6E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DD4F7C4213C31BD200825C6E /* Panel.h */,
+				DD4F7C4313C31BD200825C6E /* Panel.m */,
+				DD4F7C3A13C3180800825C6E /* StatusItemView.h */,
+				DD4F7C3B13C3180800825C6E /* StatusItemView.m */,
+				DD4F7C4513C3208500825C6E /* BackgroundView.h */,
+				DD4F7C4613C3208500825C6E /* BackgroundView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		DD4F7C4813C322D800825C6E /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				DD4F7C4913C322FA00825C6E /* Status.png */,
+				DDF4EFAB16C80A510044D141 /* Status@2x.png */,
+				DD4F7C4A13C322FA00825C6E /* StatusHighlighted.png */,
+				DDF4EFAD16C80AD30044D141 /* StatusHighlighted@2x.png */,
+			);
+			name = Graphics;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD4F7C0313C30F9F00825C6E /* SimonRemote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD4F7C2213C30F9F00825C6E /* Build configuration list for PBXNativeTarget "SimonRemote" */;
+			buildPhases = (
+				DD4F7C0013C30F9F00825C6E /* Sources */,
+				DD4F7C0113C30F9F00825C6E /* Frameworks */,
+				DD4F7C0213C30F9F00825C6E /* Resources */,
+				2F3C8D661915D74300E33C56 /* Copy Files */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimonRemote;
+			productName = SimonRemote;
+			productReference = DD4F7C0413C30F9F00825C6E /* SimonRemote.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD4F7BFB13C30F9F00825C6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					DD4F7C0313C30F9F00825C6E = {
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = DD4F7BFE13C30F9F00825C6E /* Build configuration list for PBXProject "SimonRemote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DD4F7BF913C30F9F00825C6E;
+			productRefGroup = DD4F7C0513C30F9F00825C6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD4F7C0313C30F9F00825C6E /* SimonRemote */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD4F7C0213C30F9F00825C6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F921E2A18DA4E72006E2934 /* PowerPoint-black_screen.scpt in Resources */,
+				2FD6923E18DBEB0800C8A1C9 /* iTunes-playpause.scpt in Resources */,
+				2F921E3318DA52E7006E2934 /* PowerPoint-previous.scpt in Resources */,
+				2FD6925018DD06CD00C8A1C9 /* System-volume_up.scpt in Resources */,
+				2FCFACA819119C8D00508B0A /* System-down.scpt in Resources */,
+				2F921E2D18DA4E72006E2934 /* PowerPoint-start_slideshow.scpt in Resources */,
+				2F9B1D8C18D2B82700A41633 /* bottomright.png in Resources */,
+				2F80476A18D3FCB50078905C /* Spotify-play.scpt in Resources */,
+				2FCFACAD19119C8D00508B0A /* System-up.scpt in Resources */,
+				2F21FA8A1904C812002DD68B /* iTunes-enable_shuffle.scpt in Resources */,
+				2FD6924018DCA70B00C8A1C9 /* iTunes-info.scpt in Resources */,
+				2F9B1D8D18D2B82700A41633 /* Status.png in Resources */,
+				2F921E2E18DA4E72006E2934 /* PowerPoint-white_screen.scpt in Resources */,
+				2FCFACAB19119C8D00508B0A /* System-right.scpt in Resources */,
+				2F9B1D8E18D2B82700A41633 /* Status@2x.png in Resources */,
+				2FCFACAA19119C8D00508B0A /* System-left.scpt in Resources */,
+				2F921E1618DA13DA006E2934 /* iTunes-pause.scpt in Resources */,
+				2FAB739E1906D8B200F36112 /* Keynote-info.scpt in Resources */,
+				2F9B1D8F18D2B82700A41633 /* StatusHighlighted.png in Resources */,
+				2FAB73A11906D8B200F36112 /* Keynote-start_slideshow.scpt in Resources */,
+				2FAB738E19060B0C00F36112 /* Spotify-enable_shuffle.scpt in Resources */,
+				2FD6924618DCD30500C8A1C9 /* Spotify-info.scpt in Resources */,
+				2F921E1718DA13DA006E2934 /* iTunes-play.scpt in Resources */,
+				2FAB73A01906D8B200F36112 /* Keynote-previous.scpt in Resources */,
+				2FCFACA919119C8D00508B0A /* System-info.scpt in Resources */,
+				2FAB73941906D87900F36112 /* Spotify-previous.scpt in Resources */,
+				2F9B1D9018D2B82700A41633 /* StatusHighlighted@2x.png in Resources */,
+				2F9B1D9118D2B82700A41633 /* MainMenu.xib in Resources */,
+				2F80475B18D3FC9F0078905C /* bottomleft.png in Resources */,
+				2F21FA891904C812002DD68B /* iTunes-disable_shuffle.scpt in Resources */,
+				2FAB738D19060B0C00F36112 /* Spotify-disable_shuffle.scpt in Resources */,
+				2F80476918D3FCB50078905C /* Spotify-pause.scpt in Resources */,
+				2FD6924718DCD30500C8A1C9 /* Spotify-playpause.scpt in Resources */,
+				2FAB7390190614AF00F36112 /* PowerPoint-info.scpt in Resources */,
+				2FAB73931906D87900F36112 /* Spotify-next.scpt in Resources */,
+				2F921E3218DA52E7006E2934 /* PowerPoint-next.scpt in Resources */,
+				2FAB73971906D88700F36112 /* iTunes-next.scpt in Resources */,
+				2FAB739F1906D8B200F36112 /* Keynote-next.scpt in Resources */,
+				2FD6924F18DD06CD00C8A1C9 /* System-volume_down.scpt in Resources */,
+				2F80476F18D422F70078905C /* PreferenceWindow.xib in Resources */,
+				2FA264D6191C9D4200AF1175 /* dsa_pub.pem in Resources */,
+				2FAB73981906D88700F36112 /* iTunes-previous.scpt in Resources */,
+				2F9B1D9218D2B82700A41633 /* Panel.xib in Resources */,
+				2FCFACAC19119C8D00508B0A /* System-space.scpt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD4F7C0013C30F9F00825C6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD6929118DFD44700C8A1C9 /* Reachability.m in Sources */,
+				DD4F7C1513C30F9F00825C6E /* main.m in Sources */,
+				DD4F7C1C13C30F9F00825C6E /* ApplicationDelegate.m in Sources */,
+				2FD6924318DCB97C00C8A1C9 /* NSAppleEventDescriptor+FCSAdditions.m in Sources */,
+				2F8046FD18D3E6800078905C /* SRActionHandler.m in Sources */,
+				DD4F7C3813C317A500825C6E /* MenubarController.m in Sources */,
+				2FC629CD18D3B30900A7CA1F /* SRMessenger.m in Sources */,
+				DD4F7C3C13C3180800825C6E /* StatusItemView.m in Sources */,
+				DD4F7C3F13C318D600825C6E /* PanelController.m in Sources */,
+				DD4F7C4413C31BD200825C6E /* Panel.m in Sources */,
+				DD4F7C4713C3208500825C6E /* BackgroundView.m in Sources */,
+				2F8046FA18D3DE5E0078905C /* SRRunner.m in Sources */,
+				2FC629C718D3A9D300A7CA1F /* SRConnection.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2F9B1D8818D2B77C00A41633 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F9B1D8918D2B77C00A41633 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD4F7C2013C30F9F00825C6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DD4F7C2113C30F9F00825C6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DD4F7C2313C30F9F00825C6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimonRemote/SimonRemote-Prefix.pch";
+				INFOPLIST_FILE = "SimonRemote/SimonRemote-Info.plist";
+				PRODUCT_NAME = SimonRemote;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DD4F7C2413C30F9F00825C6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimonRemote/SimonRemote-Prefix.pch";
+				INFOPLIST_FILE = "SimonRemote/SimonRemote-Info.plist";
+				PRODUCT_NAME = SimonRemote;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD4F7BFE13C30F9F00825C6E /* Build configuration list for PBXProject "SimonRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD4F7C2013C30F9F00825C6E /* Debug */,
+				DD4F7C2113C30F9F00825C6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD4F7C2213C30F9F00825C6E /* Build configuration list for PBXNativeTarget "SimonRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD4F7C2313C30F9F00825C6E /* Debug */,
+				DD4F7C2413C30F9F00825C6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD4F7BFB13C30F9F00825C6E /* Project object */;
+}
