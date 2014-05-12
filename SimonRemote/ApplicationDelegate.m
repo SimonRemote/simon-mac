@@ -142,6 +142,14 @@ void *kContextActivePanel = &kContextActivePanel;
 }
 
 #pragma mark - NSApplicationDelegate
+- (void)applicationWillFinishLaunching:(NSNotification *)notification
+{
+    SUUpdater *updater = [SUUpdater sharedUpdater];
+    [updater setAutomaticallyChecksForUpdates:YES];
+    [updater setAutomaticallyDownloadsUpdates:YES];
+    [updater checkForUpdatesInBackground];
+}
+
 
 - (void)applicationDidFinishLaunching:(NSNotification *)notification
 {

@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F051990191E7B5800806A2C /* SocketRocket.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = 2F7BD229191E683A00C1362A /* SocketRocket.framework */; };
+		2F0FCC45191E83190054BA64 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0FCC44191E83190054BA64 /* Reachability.m */; };
 		2F21FA891904C812002DD68B /* iTunes-disable_shuffle.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2F21FA871904C812002DD68B /* iTunes-disable_shuffle.scpt */; };
 		2F21FA8A1904C812002DD68B /* iTunes-enable_shuffle.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2F21FA881904C812002DD68B /* iTunes-enable_shuffle.scpt */; };
-		2F7BD22A191E683A00C1362A /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F7BD228191E683A00C1362A /* Sparkle.framework */; };
+		2F78E927191E917800580FAD /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F78E926191E917800580FAD /* Sparkle.framework */; };
+		2F78E928191E917E00580FAD /* Sparkle.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = 2F78E926191E917800580FAD /* Sparkle.framework */; };
 		2F7BD22B191E683A00C1362A /* SocketRocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F7BD229191E683A00C1362A /* SocketRocket.framework */; };
 		2F8046FA18D3DE5E0078905C /* SRRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8046F918D3DE5E0078905C /* SRRunner.m */; };
 		2F8046FD18D3E6800078905C /* SRActionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8046FC18D3E6800078905C /* SRActionHandler.m */; };
@@ -58,7 +61,6 @@
 		2FD6924718DCD30500C8A1C9 /* Spotify-playpause.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2FD6924518DCD30500C8A1C9 /* Spotify-playpause.scpt */; };
 		2FD6924F18DD06CD00C8A1C9 /* System-volume_down.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2FD6924D18DD06CD00C8A1C9 /* System-volume_down.scpt */; };
 		2FD6925018DD06CD00C8A1C9 /* System-volume_up.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2FD6924E18DD06CD00C8A1C9 /* System-volume_up.scpt */; };
-		2FD6929118DFD44700C8A1C9 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD6929018DFD44700C8A1C9 /* Reachability.m */; };
 		2FD6929318DFD57200C8A1C9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FD6929218DFD57200C8A1C9 /* SystemConfiguration.framework */; };
 		DD4F7C0913C30F9F00825C6E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD4F7C0813C30F9F00825C6E /* Cocoa.framework */; };
 		DD4F7C1513C30F9F00825C6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4F7C1413C30F9F00825C6E /* main.m */; };
@@ -77,6 +79,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				2F051990191E7B5800806A2C /* SocketRocket.framework in Copy Files */,
+				2F78E928191E917E00580FAD /* Sparkle.framework in Copy Files */,
 			);
 			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -84,9 +88,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2F0FCC43191E83190054BA64 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = Reachability/Reachability.h; sourceTree = "<group>"; };
+		2F0FCC44191E83190054BA64 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = Reachability/Reachability.m; sourceTree = "<group>"; };
 		2F21FA871904C812002DD68B /* iTunes-disable_shuffle.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "iTunes-disable_shuffle.scpt"; path = "SimonRemote/Scripts/iTunes/iTunes-disable_shuffle.scpt"; sourceTree = "<group>"; };
 		2F21FA881904C812002DD68B /* iTunes-enable_shuffle.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "iTunes-enable_shuffle.scpt"; path = "SimonRemote/Scripts/iTunes/iTunes-enable_shuffle.scpt"; sourceTree = "<group>"; };
-		2F7BD228191E683A00C1362A /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = ../../../../../../Library/Frameworks/Sparkle.framework; sourceTree = "<group>"; };
+		2F78E926191E917800580FAD /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = ../../../../../../Library/Frameworks/Sparkle.framework; sourceTree = "<group>"; };
 		2F7BD229191E683A00C1362A /* SocketRocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SocketRocket.framework; path = ../../../../../../Library/Frameworks/SocketRocket.framework; sourceTree = "<group>"; };
 		2F8046F818D3DE5E0078905C /* SRRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRRunner.h; sourceTree = "<group>"; };
 		2F8046F918D3DE5E0078905C /* SRRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRRunner.m; sourceTree = "<group>"; };
@@ -135,8 +141,6 @@
 		2FD6924518DCD30500C8A1C9 /* Spotify-playpause.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Spotify-playpause.scpt"; path = "SimonRemote/Scripts/Spotify/Spotify-playpause.scpt"; sourceTree = "<group>"; };
 		2FD6924D18DD06CD00C8A1C9 /* System-volume_down.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "System-volume_down.scpt"; path = "SimonRemote/Scripts/System/System-volume_down.scpt"; sourceTree = "<group>"; };
 		2FD6924E18DD06CD00C8A1C9 /* System-volume_up.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "System-volume_up.scpt"; path = "SimonRemote/Scripts/System/System-volume_up.scpt"; sourceTree = "<group>"; };
-		2FD6928F18DFD44700C8A1C9 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = Reachability/Reachability.h; sourceTree = "<group>"; };
-		2FD6929018DFD44700C8A1C9 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = Reachability/Reachability.m; sourceTree = "<group>"; };
 		2FD6929218DFD57200C8A1C9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		DD4F7C0413C30F9F00825C6E /* SimonRemote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimonRemote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD4F7C0813C30F9F00825C6E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -170,7 +174,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F7BD22A191E683A00C1362A /* Sparkle.framework in Frameworks */,
+				2F78E927191E917800580FAD /* Sparkle.framework in Frameworks */,
 				2F7BD22B191E683A00C1362A /* SocketRocket.framework in Frameworks */,
 				2FD6929318DFD57200C8A1C9 /* SystemConfiguration.framework in Frameworks */,
 				DD4F7C0913C30F9F00825C6E /* Cocoa.framework in Frameworks */,
@@ -260,8 +264,8 @@
 		2FC629C818D3AA1300A7CA1F /* MyFiles */ = {
 			isa = PBXGroup;
 			children = (
-				2FD6928F18DFD44700C8A1C9 /* Reachability.h */,
-				2FD6929018DFD44700C8A1C9 /* Reachability.m */,
+				2F0FCC43191E83190054BA64 /* Reachability.h */,
+				2F0FCC44191E83190054BA64 /* Reachability.m */,
 				2FD6924118DCB97C00C8A1C9 /* NSAppleEventDescriptor+FCSAdditions.h */,
 				2FD6924218DCB97C00C8A1C9 /* NSAppleEventDescriptor+FCSAdditions.m */,
 				2FC629C518D3A9D300A7CA1F /* SRConnection.h */,
@@ -314,7 +318,7 @@
 		DD4F7C0713C30F9F00825C6E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2F7BD228191E683A00C1362A /* Sparkle.framework */,
+				2F78E926191E917800580FAD /* Sparkle.framework */,
 				2F7BD229191E683A00C1362A /* SocketRocket.framework */,
 				2FD6929218DFD57200C8A1C9 /* SystemConfiguration.framework */,
 				DD4F7C0B13C30F9F00825C6E /* AppKit.framework */,
@@ -516,7 +520,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FD6929118DFD44700C8A1C9 /* Reachability.m in Sources */,
+				2F0FCC45191E83190054BA64 /* Reachability.m in Sources */,
 				DD4F7C1513C30F9F00825C6E /* main.m in Sources */,
 				DD4F7C1C13C30F9F00825C6E /* ApplicationDelegate.m in Sources */,
 				2FD6924318DCB97C00C8A1C9 /* NSAppleEventDescriptor+FCSAdditions.m in Sources */,
@@ -621,6 +625,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimonRemote/SimonRemote-Prefix.pch";
 				INFOPLIST_FILE = "SimonRemote/SimonRemote-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = SimonRemote;
 				WRAPPER_EXTENSION = app;
 			};
@@ -640,6 +645,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimonRemote/SimonRemote-Prefix.pch";
 				INFOPLIST_FILE = "SimonRemote/SimonRemote-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = SimonRemote;
 				WRAPPER_EXTENSION = app;
 			};

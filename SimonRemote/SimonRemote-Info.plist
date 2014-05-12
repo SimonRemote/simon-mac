@@ -32,8 +32,6 @@
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
-	<key>SUEnableAutomaticChecks</key>
-	<true/>
 	<key>SUFeedURL</key>
 	<string>https://simonremote.github.io/appcast.xml</string>
 	<key>SUPublicDSAKeyFile</key>
