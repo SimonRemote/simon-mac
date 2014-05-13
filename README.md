@@ -1,5 +1,7 @@
 # SimonRemote - Mac
 
+This is the companion application for the [Pebble SimonRemote application](https://github.com/simonremote/simon-pebble). It allows the Pebble to control many aspects of the Mac, such as music players, presentaiton software, and the volume (more to come). 
+
 ## Setup
 
 1. Install the lastest release from [here](https://github.com/SimonRemote/simon-mac/releases)

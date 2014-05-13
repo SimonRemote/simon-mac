@@ -28,8 +28,6 @@
 		2F921E3218DA52E7006E2934 /* PowerPoint-next.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2F921E3018DA52E7006E2934 /* PowerPoint-next.scpt */; };
 		2F921E3318DA52E7006E2934 /* PowerPoint-previous.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2F921E3118DA52E7006E2934 /* PowerPoint-previous.scpt */; };
 		2F9B1D8C18D2B82700A41633 /* bottomright.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F9B1D8518D28ABA00A41633 /* bottomright.png */; };
-		2F9B1D8D18D2B82700A41633 /* Status.png in Resources */ = {isa = PBXBuildFile; fileRef = DD4F7C4913C322FA00825C6E /* Status.png */; };
-		2F9B1D8E18D2B82700A41633 /* Status@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDF4EFAB16C80A510044D141 /* Status@2x.png */; };
 		2F9B1D8F18D2B82700A41633 /* StatusHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = DD4F7C4A13C322FA00825C6E /* StatusHighlighted.png */; };
 		2F9B1D9018D2B82700A41633 /* StatusHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDF4EFAD16C80AD30044D141 /* StatusHighlighted@2x.png */; };
 		2F9B1D9118D2B82700A41633 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F9B1D8818D2B77C00A41633 /* MainMenu.xib */; };
@@ -46,6 +44,9 @@
 		2FAB739F1906D8B200F36112 /* Keynote-next.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2FAB739B1906D8B200F36112 /* Keynote-next.scpt */; };
 		2FAB73A01906D8B200F36112 /* Keynote-previous.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2FAB739C1906D8B200F36112 /* Keynote-previous.scpt */; };
 		2FAB73A11906D8B200F36112 /* Keynote-start_slideshow.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2FAB739D1906D8B200F36112 /* Keynote-start_slideshow.scpt */; };
+		2FC01AA31922D90B007D56F6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FC01AA21922D90B007D56F6 /* Images.xcassets */; };
+		2FC01AA61922DCC7007D56F6 /* Status.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FC01AA41922DCC7007D56F6 /* Status.png */; };
+		2FC01AA71922DCC7007D56F6 /* Status@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FC01AA51922DCC7007D56F6 /* Status@2x.png */; };
 		2FC629C718D3A9D300A7CA1F /* SRConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC629C618D3A9D300A7CA1F /* SRConnection.m */; };
 		2FC629CD18D3B30900A7CA1F /* SRMessenger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC629CC18D3B30900A7CA1F /* SRMessenger.m */; };
 		2FCFACA819119C8D00508B0A /* System-down.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2FCFACA219119C8D00508B0A /* System-down.scpt */; };
@@ -123,6 +124,9 @@
 		2FAB739B1906D8B200F36112 /* Keynote-next.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Keynote-next.scpt"; path = "SimonRemote/Scripts/Keynote/Keynote-next.scpt"; sourceTree = "<group>"; };
 		2FAB739C1906D8B200F36112 /* Keynote-previous.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Keynote-previous.scpt"; path = "SimonRemote/Scripts/Keynote/Keynote-previous.scpt"; sourceTree = "<group>"; };
 		2FAB739D1906D8B200F36112 /* Keynote-start_slideshow.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Keynote-start_slideshow.scpt"; path = "SimonRemote/Scripts/Keynote/Keynote-start_slideshow.scpt"; sourceTree = "<group>"; };
+		2FC01AA21922D90B007D56F6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SimonRemote/Images.xcassets; sourceTree = "<group>"; };
+		2FC01AA41922DCC7007D56F6 /* Status.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Status.png; path = SimonRemote/Status.png; sourceTree = "<group>"; };
+		2FC01AA51922DCC7007D56F6 /* Status@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Status@2x.png"; path = "SimonRemote/Status@2x.png"; sourceTree = "<group>"; };
 		2FC629C518D3A9D300A7CA1F /* SRConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRConnection.h; sourceTree = "<group>"; };
 		2FC629C618D3A9D300A7CA1F /* SRConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRConnection.m; sourceTree = "<group>"; };
 		2FC629CB18D3B30900A7CA1F /* SRMessenger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRMessenger.h; sourceTree = "<group>"; };
@@ -163,9 +167,7 @@
 		DD4F7C4313C31BD200825C6E /* Panel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Panel.m; sourceTree = "<group>"; };
 		DD4F7C4513C3208500825C6E /* BackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundView.h; sourceTree = "<group>"; };
 		DD4F7C4613C3208500825C6E /* BackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundView.m; sourceTree = "<group>"; };
-		DD4F7C4913C322FA00825C6E /* Status.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Status.png; path = SimonRemote/Status.png; sourceTree = "<group>"; };
 		DD4F7C4A13C322FA00825C6E /* StatusHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = StatusHighlighted.png; path = SimonRemote/StatusHighlighted.png; sourceTree = "<group>"; };
-		DDF4EFAB16C80A510044D141 /* Status@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Status@2x.png"; path = "SimonRemote/Status@2x.png"; sourceTree = "<group>"; };
 		DDF4EFAD16C80AD30044D141 /* StatusHighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "StatusHighlighted@2x.png"; path = "SimonRemote/StatusHighlighted@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -242,6 +244,7 @@
 		2F9B1D7918D25F2200A41633 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				2FC01AA21922D90B007D56F6 /* Images.xcassets */,
 				2FA264D5191C9D4200AF1175 /* dsa_pub.pem */,
 				2F8046F718D3DDD40078905C /* Scripts */,
 				2F80475A18D3FC9F0078905C /* bottomleft.png */,
@@ -398,8 +401,8 @@
 		DD4F7C4813C322D800825C6E /* Graphics */ = {
 			isa = PBXGroup;
 			children = (
-				DD4F7C4913C322FA00825C6E /* Status.png */,
-				DDF4EFAB16C80A510044D141 /* Status@2x.png */,
+				2FC01AA41922DCC7007D56F6 /* Status.png */,
+				2FC01AA51922DCC7007D56F6 /* Status@2x.png */,
 				DD4F7C4A13C322FA00825C6E /* StatusHighlighted.png */,
 				DDF4EFAD16C80AD30044D141 /* StatusHighlighted@2x.png */,
 			);
@@ -436,6 +439,7 @@
 				LastUpgradeCheck = 0510;
 				TargetAttributes = {
 					DD4F7C0313C30F9F00825C6E = {
+						DevelopmentTeam = PSC44VD33H;
 						SystemCapabilities = {
 							com.apple.Sandbox = {
 								enabled = 0;
@@ -477,10 +481,8 @@
 				2FCFACAD19119C8D00508B0A /* System-up.scpt in Resources */,
 				2F21FA8A1904C812002DD68B /* iTunes-enable_shuffle.scpt in Resources */,
 				2FD6924018DCA70B00C8A1C9 /* iTunes-info.scpt in Resources */,
-				2F9B1D8D18D2B82700A41633 /* Status.png in Resources */,
 				2F921E2E18DA4E72006E2934 /* PowerPoint-white_screen.scpt in Resources */,
 				2FCFACAB19119C8D00508B0A /* System-right.scpt in Resources */,
-				2F9B1D8E18D2B82700A41633 /* Status@2x.png in Resources */,
 				2FCFACAA19119C8D00508B0A /* System-left.scpt in Resources */,
 				2F921E1618DA13DA006E2934 /* iTunes-pause.scpt in Resources */,
 				2FAB739E1906D8B200F36112 /* Keynote-info.scpt in Resources */,
@@ -497,16 +499,19 @@
 				2F80475B18D3FC9F0078905C /* bottomleft.png in Resources */,
 				2F21FA891904C812002DD68B /* iTunes-disable_shuffle.scpt in Resources */,
 				2FAB738D19060B0C00F36112 /* Spotify-disable_shuffle.scpt in Resources */,
+				2FC01AA61922DCC7007D56F6 /* Status.png in Resources */,
 				2F80476918D3FCB50078905C /* Spotify-pause.scpt in Resources */,
 				2FD6924718DCD30500C8A1C9 /* Spotify-playpause.scpt in Resources */,
 				2FAB7390190614AF00F36112 /* PowerPoint-info.scpt in Resources */,
 				2FAB73931906D87900F36112 /* Spotify-next.scpt in Resources */,
 				2F921E3218DA52E7006E2934 /* PowerPoint-next.scpt in Resources */,
+				2FC01AA31922D90B007D56F6 /* Images.xcassets in Resources */,
 				2FAB73971906D88700F36112 /* iTunes-next.scpt in Resources */,
 				2FAB739F1906D8B200F36112 /* Keynote-next.scpt in Resources */,
 				2FD6924F18DD06CD00C8A1C9 /* System-volume_down.scpt in Resources */,
 				2F80476F18D422F70078905C /* PreferenceWindow.xib in Resources */,
 				2FA264D6191C9D4200AF1175 /* dsa_pub.pem in Resources */,
+				2FC01AA71922DCC7007D56F6 /* Status@2x.png in Resources */,
 				2FAB73981906D88700F36112 /* iTunes-previous.scpt in Resources */,
 				2F9B1D9218D2B82700A41633 /* Panel.xib in Resources */,
 				2FCFACAC19119C8D00508B0A /* System-space.scpt in Resources */,
@@ -614,8 +619,9 @@
 		DD4F7C2313C30F9F00825C6E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -626,6 +632,7 @@
 				GCC_PREFIX_HEADER = "SimonRemote/SimonRemote-Prefix.pch";
 				INFOPLIST_FILE = "SimonRemote/SimonRemote-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_CODE_SIGN_FLAGS = "--deep";
 				PRODUCT_NAME = SimonRemote;
 				WRAPPER_EXTENSION = app;
 			};
@@ -634,8 +641,9 @@
 		DD4F7C2413C30F9F00825C6E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -646,6 +654,7 @@
 				GCC_PREFIX_HEADER = "SimonRemote/SimonRemote-Prefix.pch";
 				INFOPLIST_FILE = "SimonRemote/SimonRemote-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				"OTHER_CODE_SIGN_FLAGS[sdk=*]" = "--deep";
 				PRODUCT_NAME = SimonRemote;
 				WRAPPER_EXTENSION = app;
 			};
