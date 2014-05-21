@@ -8,7 +8,6 @@
     Reachability* reach;
     NSTimer *tickTimer;
     NSString *channel;
-    int numConnections;
 }
 
 @synthesize panelController = _panelController;
@@ -59,6 +58,10 @@ NSString *letters = @"ABCDEFGHIJKLMNPQRSTUVWXYZ";
 
 - (void)pushNewInfo:(NSNotification *)notification
 {
+    if (_numberActiveControllers == 0) {
+        return;
+    }
+    
     if ([[notification name] isEqualToString:@"com.apple.iTunes.playerInfo"]) {
         [[self messenger] sendNewInfoForApp:@"iTunes"];
     } else if ([[notification name] isEqualToString:@"com.spotify.client.PlaybackStateChanged"]) {
