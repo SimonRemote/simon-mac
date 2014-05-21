@@ -16,7 +16,7 @@
 @synthesize messenger = _messenger;
 @synthesize numberActiveControllers = _numberActiveControllers;
 
-NSString *letters = @"ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+NSString *letters = @"ABCDEFGHIJKLMNPQRSTUVWXYZ";
 
 #pragma mark - Notifications
 
@@ -42,19 +42,6 @@ NSString *letters = @"ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     NSLog(@"receiveWakeNote: %@", [note name]);
 }
 
-- (void) fileNotifications
-{
-    //These notifications are filed on NSWorkspace's notification center, not the default
-    // notification center. You will not receive sleep/wake notifications if you file
-    //with the default notification center.
-    [[[NSWorkspace sharedWorkspace] notificationCenter] addObserver: self
-                                                           selector: @selector(receiveSleepNote:)
-                                                               name: NSWorkspaceWillSleepNotification object: NULL];
-    
-    [[[NSWorkspace sharedWorkspace] notificationCenter] addObserver: self
-                                                           selector: @selector(receiveWakeNote:)
-                                                               name: NSWorkspaceDidWakeNotification object: NULL];
-}
 
 -(void)reachabilityChanged:(NSNotification*)note
 {
@@ -150,6 +137,47 @@ void *kContextActivePanel = &kContextActivePanel;
     [updater checkForUpdatesInBackground];
 }
 
+- (void)setupNotificationsAndTimers
+{
+    // Reachability
+    
+    reach = [Reachability reachabilityWithHostname:@"www.google.com"];
+    reach.reachableOnWWAN = NO;
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(reachabilityChanged:)
+                                                 name:kReachabilityChangedNotification
+                                               object:nil];
+    
+    [reach startNotifier];
+
+    [[[NSWorkspace sharedWorkspace] notificationCenter] addObserver: self
+                                                           selector: @selector(receiveSleepNote:)
+                                                               name: NSWorkspaceWillSleepNotification object: NULL];
+    
+    [[[NSWorkspace sharedWorkspace] notificationCenter] addObserver: self
+                                                           selector: @selector(receiveWakeNote:)
+                                                               name: NSWorkspaceDidWakeNotification object: NULL];
+    
+    // Player state changes
+    
+    [[NSDistributedNotificationCenter defaultCenter] addObserver:self
+                                                        selector:@selector(pushNewInfo:)
+                                                            name:@"com.apple.iTunes.playerInfo"
+                                                          object:nil];
+    
+    [[NSDistributedNotificationCenter defaultCenter] addObserver:self
+                                                        selector:@selector(pushNewInfo:)
+                                                            name:@"com.spotify.client.PlaybackStateChanged"
+                                                          object:nil];
+    
+    // set up reconnect timer
+    
+    tickTimer = [NSTimer scheduledTimerWithTimeInterval: 30.0
+                                                 target: self
+                                               selector:@selector(timerTick:)
+                                               userInfo: nil repeats:YES];
+}
+
 
 - (void)applicationDidFinishLaunching:(NSNotification *)notification
 {
@@ -159,40 +187,8 @@ void *kContextActivePanel = &kContextActivePanel;
     _messenger = [[SRMessenger alloc] initWithURL:WS_SERVER_URL andChannel:channel];
     
     
-    // Allocate a reachability object
-    reach = [Reachability reachabilityWithHostname:@"www.google.com"];
     
-    // Tell the reachability that we DON'T want to be reachable on 3G/EDGE/CDMA
-    reach.reachableOnWWAN = NO;
-    
-    // Here we set up a NSNotification observer. The Reachability that caused the notification
-    // is passed in the object parameter
-    [[NSNotificationCenter defaultCenter] addObserver:self
-                                             selector:@selector(reachabilityChanged:)
-                                                 name:kReachabilityChangedNotification
-                                               object:nil];
-    
-    [reach startNotifier];
-    [self fileNotifications];
-    
-    NSDistributedNotificationCenter *dnc = [NSDistributedNotificationCenter defaultCenter];
-    
-    [dnc addObserver:self
-            selector:@selector(pushNewInfo:)
-                name:@"com.apple.iTunes.playerInfo"
-              object:nil];
-    
-    [dnc addObserver:self
-            selector:@selector(pushNewInfo:)
-                name:@"com.spotify.client.PlaybackStateChanged"
-              object:nil];
-
-    
-    // set up reconnect timer
-    tickTimer = [NSTimer scheduledTimerWithTimeInterval: 30.0
-                                                 target: self
-                                               selector:@selector(timerTick:)
-                                               userInfo: nil repeats:YES];
+    [self setupNotificationsAndTimers];
 }
 
 - (void)timerTick:(NSTimer *)timer
