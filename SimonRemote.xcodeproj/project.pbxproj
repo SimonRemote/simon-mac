@@ -7,13 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2F051990191E7B5800806A2C /* SocketRocket.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = 2F7BD229191E683A00C1362A /* SocketRocket.framework */; };
 		2F0FCC45191E83190054BA64 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0FCC44191E83190054BA64 /* Reachability.m */; };
 		2F21FA891904C812002DD68B /* iTunes-disable_shuffle.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2F21FA871904C812002DD68B /* iTunes-disable_shuffle.scpt */; };
 		2F21FA8A1904C812002DD68B /* iTunes-enable_shuffle.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2F21FA881904C812002DD68B /* iTunes-enable_shuffle.scpt */; };
 		2F78E927191E917800580FAD /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F78E926191E917800580FAD /* Sparkle.framework */; };
 		2F78E928191E917E00580FAD /* Sparkle.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = 2F78E926191E917800580FAD /* Sparkle.framework */; };
-		2F7BD22B191E683A00C1362A /* SocketRocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F7BD229191E683A00C1362A /* SocketRocket.framework */; };
 		2F8046FA18D3DE5E0078905C /* SRRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8046F918D3DE5E0078905C /* SRRunner.m */; };
 		2F8046FD18D3E6800078905C /* SRActionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8046FC18D3E6800078905C /* SRActionHandler.m */; };
 		2F80475B18D3FC9F0078905C /* bottomleft.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F80475A18D3FC9F0078905C /* bottomleft.png */; };
@@ -49,6 +47,8 @@
 		2FC01AA71922DCC7007D56F6 /* Status@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FC01AA51922DCC7007D56F6 /* Status@2x.png */; };
 		2FC629C718D3A9D300A7CA1F /* SRConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC629C618D3A9D300A7CA1F /* SRConnection.m */; };
 		2FC629CD18D3B30900A7CA1F /* SRMessenger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC629CC18D3B30900A7CA1F /* SRMessenger.m */; };
+		2FCD5A5F1933D04900223866 /* SocketRocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FCD5A5E1933D04900223866 /* SocketRocket.framework */; };
+		2FCD5A601933D04C00223866 /* SocketRocket.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = 2FCD5A5E1933D04900223866 /* SocketRocket.framework */; };
 		2FCFACA819119C8D00508B0A /* System-down.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2FCFACA219119C8D00508B0A /* System-down.scpt */; };
 		2FCFACA919119C8D00508B0A /* System-info.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2FCFACA319119C8D00508B0A /* System-info.scpt */; };
 		2FCFACAA19119C8D00508B0A /* System-left.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2FCFACA419119C8D00508B0A /* System-left.scpt */; };
@@ -80,8 +80,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				2F051990191E7B5800806A2C /* SocketRocket.framework in Copy Files */,
 				2F78E928191E917E00580FAD /* Sparkle.framework in Copy Files */,
+				2FCD5A601933D04C00223866 /* SocketRocket.framework in Copy Files */,
 			);
 			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -94,7 +94,6 @@
 		2F21FA871904C812002DD68B /* iTunes-disable_shuffle.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "iTunes-disable_shuffle.scpt"; path = "SimonRemote/Scripts/iTunes/iTunes-disable_shuffle.scpt"; sourceTree = "<group>"; };
 		2F21FA881904C812002DD68B /* iTunes-enable_shuffle.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "iTunes-enable_shuffle.scpt"; path = "SimonRemote/Scripts/iTunes/iTunes-enable_shuffle.scpt"; sourceTree = "<group>"; };
 		2F78E926191E917800580FAD /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = ../../../../../../Library/Frameworks/Sparkle.framework; sourceTree = "<group>"; };
-		2F7BD229191E683A00C1362A /* SocketRocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SocketRocket.framework; path = ../../../../../../Library/Frameworks/SocketRocket.framework; sourceTree = "<group>"; };
 		2F8046F818D3DE5E0078905C /* SRRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRRunner.h; sourceTree = "<group>"; };
 		2F8046F918D3DE5E0078905C /* SRRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRRunner.m; sourceTree = "<group>"; };
 		2F8046FB18D3E6800078905C /* SRActionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRActionHandler.h; sourceTree = "<group>"; };
@@ -131,6 +130,7 @@
 		2FC629C618D3A9D300A7CA1F /* SRConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRConnection.m; sourceTree = "<group>"; };
 		2FC629CB18D3B30900A7CA1F /* SRMessenger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRMessenger.h; sourceTree = "<group>"; };
 		2FC629CC18D3B30900A7CA1F /* SRMessenger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRMessenger.m; sourceTree = "<group>"; };
+		2FCD5A5E1933D04900223866 /* SocketRocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SocketRocket.framework; path = ../../../../../../Library/Frameworks/SocketRocket.framework; sourceTree = "<group>"; };
 		2FCFACA219119C8D00508B0A /* System-down.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "System-down.scpt"; path = "SimonRemote/Scripts/System/System-down.scpt"; sourceTree = "<group>"; };
 		2FCFACA319119C8D00508B0A /* System-info.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "System-info.scpt"; path = "SimonRemote/Scripts/System/System-info.scpt"; sourceTree = "<group>"; };
 		2FCFACA419119C8D00508B0A /* System-left.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "System-left.scpt"; path = "SimonRemote/Scripts/System/System-left.scpt"; sourceTree = "<group>"; };
@@ -176,8 +176,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FCD5A5F1933D04900223866 /* SocketRocket.framework in Frameworks */,
 				2F78E927191E917800580FAD /* Sparkle.framework in Frameworks */,
-				2F7BD22B191E683A00C1362A /* SocketRocket.framework in Frameworks */,
 				2FD6929318DFD57200C8A1C9 /* SystemConfiguration.framework in Frameworks */,
 				DD4F7C0913C30F9F00825C6E /* Cocoa.framework in Frameworks */,
 			);
@@ -321,8 +321,8 @@
 		DD4F7C0713C30F9F00825C6E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2FCD5A5E1933D04900223866 /* SocketRocket.framework */,
 				2F78E926191E917800580FAD /* Sparkle.framework */,
-				2F7BD229191E683A00C1362A /* SocketRocket.framework */,
 				2FD6929218DFD57200C8A1C9 /* SystemConfiguration.framework */,
 				DD4F7C0B13C30F9F00825C6E /* AppKit.framework */,
 				DD4F7C0C13C30F9F00825C6E /* CoreData.framework */,
@@ -420,6 +420,7 @@
 				DD4F7C0113C30F9F00825C6E /* Frameworks */,
 				DD4F7C0213C30F9F00825C6E /* Resources */,
 				2F3C8D661915D74300E33C56 /* Copy Files */,
+				2FCD5A5C1932B91D00223866 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -519,6 +520,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2FCD5A5C1932B91D00223866 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n\n# WARNING: You may have to run Clean in Xcode after changing CODE_SIGN_IDENTITY!\n\n# Verify that $CODE_SIGN_IDENTITY is set\nif [ -z \"${CODE_SIGN_IDENTITY}\" ] ; then\necho \"CODE_SIGN_IDENTITY needs to be set for framework code-signing!\"\n\nif [ \"${CONFIGURATION}\" = \"Release\" ] ; then\nexit 1\nelse\n# Code-signing is optional for non-release builds.\nexit 0\nfi\nfi\n\nSAVEIFS=$IFS\nIFS=$(echo -en \"\\n\\b\")\n\nFRAMEWORK_DIR=\"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}\"\n\n# Loop through all frameworks\nFRAMEWORKS=`find \"${FRAMEWORK_DIR}\" -type d -name \"*.framework\" -or -name \"*.dylib\" | sed -e \"s/\\(.*framework\\)/\\1\\/Versions\\/A\\//\"`\nRESULT=$?\nif [[ $RESULT != 0 ]] ; then\nexit 1\nfi\n\necho \"Found:\"\necho \"${FRAMEWORKS}\"\n\nfor FRAMEWORK in $FRAMEWORKS;\ndo\necho \"Signing '${FRAMEWORK}'\"\n`codesign --force --verbose --sign \"${CODE_SIGN_IDENTITY}\" \"${FRAMEWORK}\"`\nRESULT=$?\nif [[ $RESULT != 0 ]] ; then\nexit 1\nfi\ndone\n\n# restore $IFS\nIFS=$SAVEIFS";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DD4F7C0013C30F9F00825C6E /* Sources */ = {
@@ -632,7 +649,7 @@
 				GCC_PREFIX_HEADER = "SimonRemote/SimonRemote-Prefix.pch";
 				INFOPLIST_FILE = "SimonRemote/SimonRemote-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				OTHER_CODE_SIGN_FLAGS = "--deep";
+				OTHER_CODE_SIGN_FLAGS = "";
 				PRODUCT_NAME = SimonRemote;
 				WRAPPER_EXTENSION = app;
 			};
@@ -654,7 +671,7 @@
 				GCC_PREFIX_HEADER = "SimonRemote/SimonRemote-Prefix.pch";
 				INFOPLIST_FILE = "SimonRemote/SimonRemote-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				"OTHER_CODE_SIGN_FLAGS[sdk=*]" = "--deep";
+				"OTHER_CODE_SIGN_FLAGS[sdk=*]" = "";
 				PRODUCT_NAME = SimonRemote;
 				WRAPPER_EXTENSION = app;
 			};
