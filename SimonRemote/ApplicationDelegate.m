@@ -2,7 +2,7 @@
 #import <Sparkle/Sparkle.h>
 
 #define CHANNEL_LEN 8
-#define WS_SERVER_URL @"wss://simon-server.tyhoff.com/"
+#define WS_SERVER_URL @"ws://tyhoff.com:9234"
 
 @implementation ApplicationDelegate {
     Reachability* reach;
