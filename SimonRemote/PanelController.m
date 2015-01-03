@@ -264,7 +264,6 @@
 - (IBAction)preferencesClicked:(id)sender {
     ApplicationDelegate *app = (ApplicationDelegate *)[[NSApplication sharedApplication] delegate];
     [app generateNewChannel];
-//    [[SUUpdater sharedUpdater] checkForUpdates:nil];
 }
 - (IBAction)quitClicked:(id)sender {
     [NSApp terminate:self];

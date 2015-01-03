@@ -136,7 +136,7 @@ void *kContextActivePanel = &kContextActivePanel;
 {
     SUUpdater *updater = [SUUpdater sharedUpdater];
     [updater setAutomaticallyChecksForUpdates:YES];
-    [updater setAutomaticallyDownloadsUpdates:YES];
+    [updater setAutomaticallyDownloadsUpdates:NO];
     [updater checkForUpdatesInBackground];
 }
 
