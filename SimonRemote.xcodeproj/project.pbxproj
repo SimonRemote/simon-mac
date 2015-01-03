@@ -63,6 +63,11 @@
 		2FD6924F18DD06CD00C8A1C9 /* System-volume_down.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2FD6924D18DD06CD00C8A1C9 /* System-volume_down.scpt */; };
 		2FD6925018DD06CD00C8A1C9 /* System-volume_up.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2FD6924E18DD06CD00C8A1C9 /* System-volume_up.scpt */; };
 		2FD6929318DFD57200C8A1C9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FD6929218DFD57200C8A1C9 /* SystemConfiguration.framework */; };
+		69121DED1A5601D8007C56B2 /* Spotify-volume_down.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 69121DEB1A5601D8007C56B2 /* Spotify-volume_down.scpt */; };
+		69121DEE1A5601D8007C56B2 /* Spotify-volume_up.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 69121DEC1A5601D8007C56B2 /* Spotify-volume_up.scpt */; };
+		69121DF11A5601E3007C56B2 /* iTunes-volume_down.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 69121DEF1A5601E3007C56B2 /* iTunes-volume_down.scpt */; };
+		69121DF21A5601E3007C56B2 /* iTunes-volume_up.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 69121DF01A5601E3007C56B2 /* iTunes-volume_up.scpt */; };
+		69BF9C6F1A5756CF00425055 /* System-mouse_click.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 69BF9C6E1A5756CF00425055 /* System-mouse_click.scpt */; };
 		DD4F7C0913C30F9F00825C6E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD4F7C0813C30F9F00825C6E /* Cocoa.framework */; };
 		DD4F7C1513C30F9F00825C6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4F7C1413C30F9F00825C6E /* main.m */; };
 		DD4F7C1C13C30F9F00825C6E /* ApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4F7C1B13C30F9F00825C6E /* ApplicationDelegate.m */; };
@@ -146,6 +151,11 @@
 		2FD6924D18DD06CD00C8A1C9 /* System-volume_down.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "System-volume_down.scpt"; path = "SimonRemote/Scripts/System/System-volume_down.scpt"; sourceTree = "<group>"; };
 		2FD6924E18DD06CD00C8A1C9 /* System-volume_up.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "System-volume_up.scpt"; path = "SimonRemote/Scripts/System/System-volume_up.scpt"; sourceTree = "<group>"; };
 		2FD6929218DFD57200C8A1C9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		69121DEB1A5601D8007C56B2 /* Spotify-volume_down.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Spotify-volume_down.scpt"; path = "simonremote/Scripts/Spotify/Spotify-volume_down.scpt"; sourceTree = "<group>"; };
+		69121DEC1A5601D8007C56B2 /* Spotify-volume_up.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Spotify-volume_up.scpt"; path = "simonremote/Scripts/Spotify/Spotify-volume_up.scpt"; sourceTree = "<group>"; };
+		69121DEF1A5601E3007C56B2 /* iTunes-volume_down.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "iTunes-volume_down.scpt"; path = "simonremote/Scripts/iTunes/iTunes-volume_down.scpt"; sourceTree = "<group>"; };
+		69121DF01A5601E3007C56B2 /* iTunes-volume_up.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "iTunes-volume_up.scpt"; path = "simonremote/Scripts/iTunes/iTunes-volume_up.scpt"; sourceTree = "<group>"; };
+		69BF9C6E1A5756CF00425055 /* System-mouse_click.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "System-mouse_click.scpt"; path = "simonremote/Scripts/System/System-mouse_click.scpt"; sourceTree = "<group>"; };
 		DD4F7C0413C30F9F00825C6E /* SimonRemote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimonRemote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD4F7C0813C30F9F00825C6E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		DD4F7C0B13C30F9F00825C6E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -201,6 +211,8 @@
 		2F921E1918DA13EF006E2934 /* iTunes */ = {
 			isa = PBXGroup;
 			children = (
+				69121DEF1A5601E3007C56B2 /* iTunes-volume_down.scpt */,
+				69121DF01A5601E3007C56B2 /* iTunes-volume_up.scpt */,
 				2FAB73951906D88700F36112 /* iTunes-next.scpt */,
 				2FAB73961906D88700F36112 /* iTunes-previous.scpt */,
 				2F21FA871904C812002DD68B /* iTunes-disable_shuffle.scpt */,
@@ -216,6 +228,8 @@
 		2F921E1A18DA13F9006E2934 /* Spotify */ = {
 			isa = PBXGroup;
 			children = (
+				69121DEB1A5601D8007C56B2 /* Spotify-volume_down.scpt */,
+				69121DEC1A5601D8007C56B2 /* Spotify-volume_up.scpt */,
 				2FAB73911906D87900F36112 /* Spotify-next.scpt */,
 				2FAB73921906D87900F36112 /* Spotify-previous.scpt */,
 				2FAB738B19060B0C00F36112 /* Spotify-disable_shuffle.scpt */,
@@ -286,6 +300,7 @@
 		2FD6924C18DD065000C8A1C9 /* System */ = {
 			isa = PBXGroup;
 			children = (
+				69BF9C6E1A5756CF00425055 /* System-mouse_click.scpt */,
 				2FCFACA219119C8D00508B0A /* System-down.scpt */,
 				2FCFACA319119C8D00508B0A /* System-info.scpt */,
 				2FCFACA419119C8D00508B0A /* System-left.scpt */,
@@ -475,12 +490,14 @@
 				2FD6923E18DBEB0800C8A1C9 /* iTunes-playpause.scpt in Resources */,
 				2F921E3318DA52E7006E2934 /* PowerPoint-previous.scpt in Resources */,
 				2FD6925018DD06CD00C8A1C9 /* System-volume_up.scpt in Resources */,
+				69121DED1A5601D8007C56B2 /* Spotify-volume_down.scpt in Resources */,
 				2FCFACA819119C8D00508B0A /* System-down.scpt in Resources */,
 				2F921E2D18DA4E72006E2934 /* PowerPoint-start_slideshow.scpt in Resources */,
 				2F9B1D8C18D2B82700A41633 /* bottomright.png in Resources */,
 				2F80476A18D3FCB50078905C /* Spotify-play.scpt in Resources */,
 				2FCFACAD19119C8D00508B0A /* System-up.scpt in Resources */,
 				2F21FA8A1904C812002DD68B /* iTunes-enable_shuffle.scpt in Resources */,
+				69BF9C6F1A5756CF00425055 /* System-mouse_click.scpt in Resources */,
 				2FD6924018DCA70B00C8A1C9 /* iTunes-info.scpt in Resources */,
 				2F921E2E18DA4E72006E2934 /* PowerPoint-white_screen.scpt in Resources */,
 				2FCFACAB19119C8D00508B0A /* System-right.scpt in Resources */,
@@ -489,12 +506,14 @@
 				2FAB739E1906D8B200F36112 /* Keynote-info.scpt in Resources */,
 				2F9B1D8F18D2B82700A41633 /* StatusHighlighted.png in Resources */,
 				2FAB73A11906D8B200F36112 /* Keynote-start_slideshow.scpt in Resources */,
+				69121DF11A5601E3007C56B2 /* iTunes-volume_down.scpt in Resources */,
 				2FAB738E19060B0C00F36112 /* Spotify-enable_shuffle.scpt in Resources */,
 				2FD6924618DCD30500C8A1C9 /* Spotify-info.scpt in Resources */,
 				2F921E1718DA13DA006E2934 /* iTunes-play.scpt in Resources */,
 				2FAB73A01906D8B200F36112 /* Keynote-previous.scpt in Resources */,
 				2FCFACA919119C8D00508B0A /* System-info.scpt in Resources */,
 				2FAB73941906D87900F36112 /* Spotify-previous.scpt in Resources */,
+				69121DF21A5601E3007C56B2 /* iTunes-volume_up.scpt in Resources */,
 				2F9B1D9018D2B82700A41633 /* StatusHighlighted@2x.png in Resources */,
 				2F9B1D9118D2B82700A41633 /* MainMenu.xib in Resources */,
 				2F80475B18D3FC9F0078905C /* bottomleft.png in Resources */,
@@ -512,6 +531,7 @@
 				2FD6924F18DD06CD00C8A1C9 /* System-volume_down.scpt in Resources */,
 				2F80476F18D422F70078905C /* PreferenceWindow.xib in Resources */,
 				2FA264D6191C9D4200AF1175 /* dsa_pub.pem in Resources */,
+				69121DEE1A5601D8007C56B2 /* Spotify-volume_up.scpt in Resources */,
 				2FC01AA71922DCC7007D56F6 /* Status@2x.png in Resources */,
 				2FAB73981906D88700F36112 /* iTunes-previous.scpt in Resources */,
 				2F9B1D9218D2B82700A41633 /* Panel.xib in Resources */,

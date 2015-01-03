@@ -39,10 +39,10 @@ static bool string_equal(NSString *one, NSString *two) {
             [SRRunner runScriptFromFile:@"iTunes-playpause"];
             
         } else if (string_equal(command, @"volume_up")) {
-            [SRRunner runScriptFromFile:@"System-volume_up"];
+            [SRRunner runScriptFromFile:@"iTunes-volume_up"];
             
         } else if (string_equal(command, @"volume_down")) {
-            [SRRunner runScriptFromFile:@"System-volume_down"];
+            [SRRunner runScriptFromFile:@"iTunes-volume_down"];
             
         } else if (string_equal(command, @"enable_shuffle")) {
             NSLog(@"enable_shufle ran\n");
@@ -53,6 +53,22 @@ static bool string_equal(NSString *one, NSString *two) {
             NSLog(@"disable_shufle ran\n");
             [SRRunner runScriptFromFile:@"iTunes-disable_shuffle"];
             [NSThread sleepForTimeInterval:1.0f];
+            
+        } else if([command hasPrefix:@"airplay_set-"]) {
+            // Written by https://github.com/inonprince
+            NSString* deviceName = nil;
+            deviceName = [command substringFromIndex:12];
+            NSString *script = @"set selecteddevice to \"%@\"\n"
+            "tell application \"iTunes\"\n"
+            "set apDevices to (get every AirPlay device whose available is true)\n"
+            "set apNames to (get name of every AirPlay device whose available is true)\n"
+            "set apChoices to {}\n"
+            "repeat with i from 1 to length of apNames\n"
+            "if item i of apNames is selecteddevice then set end of apChoices to item i of apDevices\n"
+            "end repeat\n"
+            "set current AirPlay devices to apChoices\n"
+            "end tell";
+            [SRRunner runScriptFromString:[NSString stringWithFormat:script, deviceName]];
         }
         
         /* Spotify */
@@ -74,10 +90,10 @@ static bool string_equal(NSString *one, NSString *two) {
             [SRRunner runScriptFromFile:@"Spotify-playpause"];
             
         } else if (string_equal(command, @"volume_up")) {
-            [SRRunner runScriptFromFile:@"System-volume_up"];
+            [SRRunner runScriptFromFile:@"Spotify-volume_up"];
             
         } else if (string_equal(command, @"volume_down")) {
-            [SRRunner runScriptFromFile:@"System-volume_down"];
+            [SRRunner runScriptFromFile:@"Spotify-volume_down"];
             
         } else if (string_equal(command, @"enable_shuffle")) {
             [SRRunner runScriptFromFile:@"Spotify-enable_shuffle"];
@@ -88,7 +104,7 @@ static bool string_equal(NSString *one, NSString *two) {
         } else if (string_equal(command, @"info")) {
             [SRRunner runScriptFromFile:@"Spotify-info"];
         }
-        
+    
         /* PowerPoint */
     } else if (string_equal(app, @"PowerPoint")) {
         
@@ -134,32 +150,26 @@ static bool string_equal(NSString *one, NSString *two) {
         /* System */
     } else if (string_equal(app, @"System")) {
         
-        if (string_equal(command, @"next")) {
+        if (string_equal(command, @"left")) {
             [SRRunner runScriptFromFile:@"System-left"];
             
-        } else if (string_equal(command, @"previous")) {
+        } else if (string_equal(command, @"right")) {
             [SRRunner runScriptFromFile:@"System-right"];
             
-        } else if (string_equal(command, @"previous")) {
+        } else if (string_equal(command, @"up")) {
             [SRRunner runScriptFromFile:@"System-up"];
             
-        } else if (string_equal(command, @"previous")) {
+        } else if (string_equal(command, @"down")) {
             [SRRunner runScriptFromFile:@"System-down"];
             
-        } else if (string_equal(command, @"previous")) {
+        } else if (string_equal(command, @"space")) {
             [SRRunner runScriptFromFile:@"System-space"];
             
-        } else if (string_equal(command, @"previous")) {
+        } else if (string_equal(command, @"volume_up")) {
             [SRRunner runScriptFromFile:@"System-volume_up"];
             
-        } else if (string_equal(command, @"previous")) {
+        } else if (string_equal(command, @"volume_down")) {
             [SRRunner runScriptFromFile:@"System-volume_down"];
-            
-        } else if (string_equal(command, @"previous")) {
-            [SRRunner runScriptFromFile:@"System-sleep"];
-            
-        } else if (string_equal(command, @"previous")) {
-            [SRRunner runScriptFromFile:@"System-reboot"];
             
         }
     }
@@ -176,7 +186,8 @@ static bool string_equal(NSString *one, NSString *two) {
     } else if (string_equal(app, @"Keynote")) {
         return [SRRunner runScriptFromFile:@"Keynote-info"];
     } else if (string_equal(app, @"System")) {
-        return [SRRunner runScriptFromFile:@"System-info"];
+        // It doesn't return anything useful, so let's not put forth effort.
+        // return [SRRunner runScriptFromFile:@"System-info"];
     }
     
     return nil;
